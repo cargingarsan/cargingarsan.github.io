@@ -115,7 +115,7 @@ Entender la relación temporal entre casos confirmados y fallecimientos por COVI
 
 Identificación del rezago óptimo entre casos y muertes, evolución de la tasa de letalidad a lo largo de las olas pandémicas, y variabilidad regional en los patrones de mortalidad.
 
-[Ver reporte completo](casos_vs_fallecidos_actualizado.html)
+[Ver reporte completo](casos_vs_fallecidos_actualizado_3.html)
 
 ------------------------------------------------------------------------
 
