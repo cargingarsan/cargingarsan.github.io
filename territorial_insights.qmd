@@ -6,10 +6,47 @@ title: "G2S Territorial Insights"
 
 Sistema Nacional de Indicadores Socioeconómicos Municipales – Perú
 
-## Objetivo
+---
 
-Construir un sistema estructurado de indicadores municipales para diagnóstico comparativo y análisis estratégico territorial.
+::: {.grid}
 
-## Estado
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100}
+::: {.card-body}
+### 📡 Señales Electorales
+Patrones estructurales del comportamiento electoral peruano a nivel distrital. Análisis de fidelidad, dispersión y dinámicas territoriales del voto 2006–2021.
 
-Proyecto en desarrollo.
+[Ver análisis](senales/index.html){.btn .btn-outline-primary .btn-sm}
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100}
+::: {.card-body}
+### 🗺️ Posicionamiento Electoral
+Modelado del posicionamiento ideológico y territorial de las fuerzas políticas peruanas en el contexto electoral 2021–2026.
+
+[Ver análisis](posicionamiento/index.html){.btn .btn-outline-primary .btn-sm}
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .h-100}
+::: {.card-body}
+### 🗳️ Elecciones 2021
+Análisis detallado de los resultados electorales de primera y segunda vuelta 2021. Patrones territoriales, IDH y comportamiento del voto.
+
+[Ver análisis](elecciones2021/index.html){.btn .btn-outline-primary .btn-sm}
+:::
+:::
+:::
+
+:::
+
+---
+
+## Sobre esta línea de análisis
+
+G2S Territorial Insights es una línea permanente de análisis territorial dentro de G2S Analytics, orientada al desarrollo continuo de evidencia cuantitativa para diagnóstico y planificación estratégica. Integra fuentes públicas oficiales con metodologías de análisis espacial y modelado estadístico aplicado al contexto peruano.
