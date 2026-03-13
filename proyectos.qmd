@@ -37,30 +37,6 @@ Identificar qué clientes de la base móvil de Entel tienen mayor probabilidad d
 
 ------------------------------------------------------------------------
 
-## Análisis Estructural del Electorado Peruano (2021–2026)
-
-**Tipo:** Estudio cuantitativo aplicado\
-**Enfoque:** Modelado territorial y comportamiento electoral
-
-### Problema
-
-Comprender la composición estructural del electorado peruano y proyectar escenarios hacia 2026.
-
-### Metodología
-
--   Procesamiento de datos electorales oficiales\
--   Análisis territorial\
--   Modelos explicativos\
--   Proyección de escenarios
-
-### Resultado
-
-Identificación de patrones estructurales de comportamiento electoral con implicancias estratégicas para análisis político y territorial.
-
-[Ver análisis completo](paper_electoral_peru.html)
-
-------------------------------------------------------------------------
-
 ## G2S Territorial Insights
 
 Sistema Nacional de Indicadores Socioeconómicos Municipales – Perú
