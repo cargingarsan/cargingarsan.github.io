@@ -2,41 +2,54 @@
 title: "G2S Territorial Insights"
 ---
 
-# G2S Territorial Insights
+G2S Territorial Insights es una línea permanente de análisis cuantitativo territorial de G2S Analytics, orientada a producir evidencia estructurada sobre el comportamiento político, social y económico del Perú a escala subnacional. Integra fuentes públicas oficiales con metodologías de análisis espacial, modelado estadístico y visualización interactiva.
 
-Sistema Nacional de Indicadores Socioeconómicos Municipales – Perú
+Los trabajos aquí reunidos abordan preguntas concretas sobre el electorado peruano, los patrones de voto, la dispersión política y los indicadores socioeconómicos municipales. Cada análisis combina rigor metodológico con una narrativa orientada a la interpretación estratégica, pensada para audiencias técnicas y de toma de decisiones.
+
+La línea se encuentra en expansión continua. Los proyectos publicados representan análisis concluidos o en fase avanzada; los casos en desarrollo incorporarán nuevas dimensiones territoriales, comparativas y predictivas sobre el contexto peruano.
 
 ---
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-4}
+::: {.g-col-12 .g-col-md-6}
 ::: {.card .h-100}
 ::: {.card-body}
 ### 📡 Señales Electorales
-Patrones estructurales del comportamiento electoral peruano a nivel distrital. Análisis de fidelidad, dispersión y dinámicas territoriales del voto 2006–2021.
+Identificación de patrones estructurales del comportamiento electoral peruano a nivel distrital entre 2006 y 2021. Analiza fidelidad de voto, fragmentación y dinámicas territoriales que permiten anticipar escenarios hacia 2026.
 
 [Ver análisis](senales/index.html){.btn .btn-outline-primary .btn-sm}
 :::
 :::
 :::
 
-::: {.g-col-12 .g-col-md-4}
+::: {.g-col-12 .g-col-md-6}
 ::: {.card .h-100}
 ::: {.card-body}
 ### 🗺️ Posicionamiento Electoral
-Modelado del posicionamiento ideológico y territorial de las fuerzas políticas peruanas en el contexto electoral 2021–2026.
+Modelado del posicionamiento ideológico y territorial de las fuerzas políticas peruanas. Examina cómo se distribuyen las preferencias en el espacio político y qué factores estructurales explican la adhesión o el rechazo a cada opción.
 
 [Ver análisis](posicionamiento/index.html){.btn .btn-outline-primary .btn-sm}
 :::
 :::
 :::
 
-::: {.g-col-12 .g-col-md-4}
+::: {.g-col-12 .g-col-md-6}
 ::: {.card .h-100}
 ::: {.card-body}
-### 🗳️ Elecciones 2021
-Análisis detallado de los resultados electorales de primera y segunda vuelta 2021. Patrones territoriales, IDH y comportamiento del voto.
+### 🗳️ ¿Votamos mal los peruanos?
+Análisis comparado del voto peruano 2006–2026 con mapas estáticos y gráficos. Examina si la disfuncionalidad electoral es un fenómeno local o compartido con Latinoamérica — y concluye que el caso peruano replica el patrón regional pero agravado por una dispersión de candidaturas sin precedentes.
+
+[Ver análisis](electoral/index.html){.btn .btn-outline-primary .btn-sm}
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .h-100}
+::: {.card-body}
+### 🗺️ Elecciones 2021
+Análisis detallado de los resultados electorales de primera y segunda vuelta 2021. Cruza resultados con indicadores de IDH, ruralidad y fragmentación para identificar los factores territoriales que determinaron el resultado final.
 
 [Ver análisis](elecciones2021/index.html){.btn .btn-outline-primary .btn-sm}
 :::
@@ -44,9 +57,3 @@ Análisis detallado de los resultados electorales de primera y segunda vuelta 20
 :::
 
 :::
-
----
-
-## Sobre esta línea de análisis
-
-G2S Territorial Insights es una línea permanente de análisis territorial dentro de G2S Analytics, orientada al desarrollo continuo de evidencia cuantitativa para diagnóstico y planificación estratégica. Integra fuentes públicas oficiales con metodologías de análisis espacial y modelado estadístico aplicado al contexto peruano.
