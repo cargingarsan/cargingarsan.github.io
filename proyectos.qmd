@@ -1,0 +1,128 @@
+---
+title: G2S Territorial Insights
+---
+Sistema Nacional de Indicadores Socioeconómicos Municipales – Perú
+
+# Proyectos y Casos de Análisis
+
+Los siguientes trabajos reflejan aplicaciones de análisis cuantitativo orientadas a interpretación estratégica y toma de decisiones.
+
+------------------------------------------------------------------------
+
+## Sistema de Recomendación Comercial — Datathon Entel 2022
+
+**Tipo:** Modelo predictivo de clasificación binaria\
+**Enfoque:** Machine learning aplicado a retención y conversión de clientes
+
+### Problema
+
+Identificar qué clientes de la base móvil de Entel tienen mayor probabilidad de adquirir un producto convergente en abril 2022, permitiendo focalizar campañas comerciales con el máximo retorno sobre inversión.
+
+### Metodología
+
+-   Integración de 8 fuentes de datos transaccionales (~224,000 clientes)
+-   Feature engineering: 27 variables de antigüedad, consumo, perfil digital y productos
+-   Modelo LightGBM con corrección de desbalance de clases (scale_pos_weight ≈ 31.8x)
+-   Optimización de umbral por máximo F1-Score
+-   Evaluación por curva ROC, Lift por decil y métricas de clasificación
+
+### Resultados
+
+-   **AUC: 0.81** en datos no vistos
+-   **Lift de 32.8x** en el decil de mayor probabilidad
+-   Contactar el 20% de mayor score captura el 57% de todos los adoptantes reales
+-   App Shiny interactiva para exploración de scores y umbrales, desplegada en Docker
+
+[Ver reporte completo](entel/index.html)
+
+------------------------------------------------------------------------
+
+## Análisis Estructural del Electorado Peruano (2021–2026)
+
+**Tipo:** Estudio cuantitativo aplicado\
+**Enfoque:** Modelado territorial y comportamiento electoral
+
+### Problema
+
+Comprender la composición estructural del electorado peruano y proyectar escenarios hacia 2026.
+
+### Metodología
+
+-   Procesamiento de datos electorales oficiales\
+-   Análisis territorial\
+-   Modelos explicativos\
+-   Proyección de escenarios
+
+### Resultado
+
+Identificación de patrones estructurales de comportamiento electoral con implicancias estratégicas para análisis político y territorial.
+
+[Ver análisis completo](paper_electoral_peru.html)
+
+------------------------------------------------------------------------
+
+## G2S Territorial Insights
+
+Sistema Nacional de Indicadores Socioeconómicos Municipales – Perú
+
+**Tipo:** Línea permanente de análisis territorial\
+**Cobertura:** Nacional
+
+### Contexto
+
+La información socioeconómica municipal en el Perú se encuentra dispersa en múltiples fuentes oficiales y carece de una estructura integrada que facilite su análisis comparativo y estratégico.
+
+### Objetivo
+
+Construir un sistema estructurado de indicadores socioeconómicos municipales que permita identificar patrones territoriales, brechas estructurales y dinámicas comparativas a escala nacional.
+
+### Metodología
+
+-   Integración de bases públicas oficiales
+-   Limpieza y homologación de datos
+-   Construcción de indicadores estandarizados
+-   Análisis exploratorio y descriptivo
+-   Identificación de patrones territoriales
+
+### Proyección Institucional
+
+G2S Territorial Insights constituye una línea permanente de análisis territorial dentro de G2S Analytics, orientada al desarrollo continuo de evidencia cuantitativa para diagnóstico y planificación estratégica.
+
+### Evolución prevista
+
+La línea G2S Territorial Insights evolucionará hacia el desarrollo de visualizaciones interactivas y herramientas comparativas para análisis municipal dinámico.
+
+------------------------------------------------------------------------
+
+## COVID-19 en Perú: Casos vs Fallecidos (2020–2025)
+
+**Tipo:** Análisis epidemiológico cuantitativo\
+**Enfoque:** Modelado de rezagos temporales y tasa de letalidad
+
+### Problema
+
+Entender la relación temporal entre casos confirmados y fallecimientos por COVID-19 en el Perú, identificando el desfase entre el diagnóstico y la muerte a nivel nacional y por departamento.
+
+### Metodología
+
+-   Procesamiento de datos del MINSA (positivos y fallecidos)
+-   Promedios móviles de 7 días
+-   Modelos de regresión con variables rezagadas (lags 0–40 días)
+-   Análisis de tasa de letalidad ajustada por rezago
+-   Modelado por departamento
+
+### Resultado
+
+Identificación del rezago óptimo entre casos y muertes, evolución de la tasa de letalidad a lo largo de las olas pandémicas, y variabilidad regional en los patrones de mortalidad.
+
+[Ver reporte completo](casos_vs_fallecidos_actualizado.html)
+
+------------------------------------------------------------------------
+
+## Modelado Estadístico Aplicado (Casos en desarrollo)
+
+Desarrollo de modelos explicativos y predictivos utilizando R para análisis económico y estructuración de bases de datos complejas.
+
+Próximamente se incorporarán nuevos casos de estudio.
+
+[Explorar G2S Territorial Insights](territorial_insights.html)

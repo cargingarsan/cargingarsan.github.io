@@ -1,0 +1,15 @@
+---
+title: "G2S Territorial Insights"
+---
+
+# G2S Territorial Insights
+
+Sistema Nacional de Indicadores Socioeconómicos Municipales – Perú
+
+## Objetivo
+
+Construir un sistema estructurado de indicadores municipales para diagnóstico comparativo y análisis estratégico territorial.
+
+## Estado
+
+Proyecto en desarrollo.

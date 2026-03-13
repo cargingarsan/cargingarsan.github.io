@@ -1,0 +1,342 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "El voto peruano 2006-2026",
+    "section": "",
+    "text": "0.1 ¿De qué trata este documento?\nEste libro analiza cómo votan los peruanos y por qué. No desde la opinión, sino desde los datos: 1,890 distritos, cuatro elecciones presidenciales (2006, 2011, 2016 y 2021), y el Índice de Desarrollo Humano 2024.\nLa pregunta de fondo es ciudadana y directa: ¿el elector peruano vota de forma irracional, o el sistema electoral lo pone en una situación en la que cualquier elección parece equivocada?\nLa respuesta, como veremos, tiene mucho más que ver con la estructura del sistema que con la inteligencia del votante.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>El voto peruano 2006–2026</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#lo-que-encontramos",
+    "href": "index.html#lo-que-encontramos",
+    "title": "El voto peruano 2006-2026",
+    "section": "0.2 Lo que encontramos",
+    "text": "0.2 Lo que encontramos\n\n\n\n\n\n\nNoteHallazgo 1 — El voto es geográficamente consistente\n\n\n\nLos distritos que votaron por un candidato en primera vuelta lo hicieron en segunda con una correlación superior a r = 0.80. El peruano no vota al azar — vota con patrones territoriales muy definidos.\n\n\n\n\n\n\n\n\nWarningHallazgo 2 — El 77% del electorado vive en zonas de voto disperso\n\n\n\nCasi 8 de cada 10 electores habitan distritos donde ningún candidato dominó en primera vuelta. No es que el voto esté fragmentado por capricho: hay 18 o más candidatos y ninguno consolida.\n\n\n\n\n\n\n\n\nImportantHallazgo 3 — Solo el 2.5% de los distritos ha votado siempre al mismo lado\n\n\n\nLa fidelidad electoral plena (4 de 4 elecciones al mismo candidato ideológico) es excepcional. El elector peruano es volátil porque el sistema no le ofrece estabilidad.\n\n\n\n\n\n\n\n\nTipHallazgo 4 — Un tercer candidato podría acumular entre 900k y 2.4M votos\n\n\n\nDependiendo de cuánto voto disperso logre consolidar, un candidato de centroizquierda moderada con bajo antivoto puede estar en el umbral de la segunda vuelta.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>El voto peruano 2006–2026</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#cómo-leer-este-documento",
+    "href": "index.html#cómo-leer-este-documento",
+    "title": "El voto peruano 2006-2026",
+    "section": "0.3 Cómo leer este documento",
+    "text": "0.3 Cómo leer este documento\nCada capítulo incluye:\n\nGráficos comentados con tres preguntas fijas: ¿qué muestra?, ¿qué significa?, ¿para qué sirve?\nCódigo R visible (se puede desplegar haciendo clic en “Ver código”)\nDatos descargables al final del documento\n\nNo se necesita saber estadística para entender las conclusiones. El código está disponible para quienes quieran reproducir o cuestionar el análisis.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>El voto peruano 2006–2026</span>"
+    ]
+  },
+  {
+    "objectID": "01_introduccion.html",
+    "href": "01_introduccion.html",
+    "title": "2  ¿Por qué votamos y luego nos quejamos?",
+    "section": "",
+    "text": "2.1 El fenómeno que todos conocemos\nCada cuatro o cinco años, millones de peruanos eligen a su presidente. Poco después, muchos de esos mismos electores expresan arrepentimiento, desconfianza o decepción con quien eligieron. El fenómeno tiene un nombre coloquial: “votar mal”.\nPero ¿es realmente el votante quien vota mal, o es el sistema el que lo pone en una trampa?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>¿Por qué votamos y luego nos quejamos?</span>"
+    ]
+  },
+  {
+    "objectID": "01_introduccion.html#no-es-solo-perú-pero-perú-tiene-un-caso-extremo",
+    "href": "01_introduccion.html#no-es-solo-perú-pero-perú-tiene-un-caso-extremo",
+    "title": "2  ¿Por qué votamos y luego nos quejamos?",
+    "section": "2.2 No es solo Perú — pero Perú tiene un caso extremo",
+    "text": "2.2 No es solo Perú — pero Perú tiene un caso extremo\nEste comportamiento existe en toda América Latina y en muchas democracias del mundo. Se llama voto expresivo: la gente no vota para elegir al mejor administrador público, sino para expresar una identidad, un rechazo, una esperanza o una protesta.\nLo que hace al caso peruano especialmente agudo es la combinación de tres factores simultáneos:\n\n\n\nLos tres factores que amplifican la frustración electoral en Perú\n\n\n\n\n\n\nFactor\n¿Qué produce?\n\n\n\n\nFragmentación extrema\n18+ candidatos en primera vuelta. El ganador puede representar al 15% del electorado.\n\n\nPartidos sin ideología estable\nSin partidos fuertes, se vota personas, no programas. Las personas decepcionan más.\n\n\nSegunda vuelta obligatoria\nEl 80% llega a segunda vuelta sin su candidato y debe elegir entre dos que no quería.\n\n\n\n\n\n\nLa conclusión incómoda: cuando el sistema obliga a elegir entre dos opciones que no se querían, el “voto mal” no es del elector — es del diseño.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>¿Por qué votamos y luego nos quejamos?</span>"
+    ]
+  },
+  {
+    "objectID": "01_introduccion.html#lo-que-dicen-los-datos-4-elecciones-1890-distritos",
+    "href": "01_introduccion.html#lo-que-dicen-los-datos-4-elecciones-1890-distritos",
+    "title": "2  ¿Por qué votamos y luego nos quejamos?",
+    "section": "2.3 Lo que dicen los datos: 4 elecciones, 1,890 distritos",
+    "text": "2.3 Lo que dicen los datos: 4 elecciones, 1,890 distritos\nEste análisis cubre las cuatro elecciones presidenciales de segunda vuelta entre 2006 y 2021. En cada una, se enfrentaron dos candidatos en todos los distritos del país.\n\n\n\n\n\nParticipación electoral promedio por elección (% sobre electores hábiles)\n\n\n\n\n\n\n\n\n\n\nNote¿Qué muestra este gráfico?\n\n\n\nLa participación electoral peruana en segunda vuelta supera el 80% en todas las elecciones. El peruano sí va a votar. El problema no es la apatía — es que cuando llega al cuarto oscuro, frecuentemente debe elegir entre opciones que no representan su primera preferencia.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>¿Por qué votamos y luego nos quejamos?</span>"
+    ]
+  },
+  {
+    "objectID": "01_introduccion.html#la-trampa-de-la-segunda-vuelta",
+    "href": "01_introduccion.html#la-trampa-de-la-segunda-vuelta",
+    "title": "2  ¿Por qué votamos y luego nos quejamos?",
+    "section": "2.4 La trampa de la segunda vuelta",
+    "text": "2.4 La trampa de la segunda vuelta\nEn primera vuelta pueden presentarse 18 o más candidatos. El voto se dispersa entre todos ellos. Los dos más votados pasan a segunda vuelta — aunque ninguno haya superado el 20%. El resultado: el 60-70% del electorado llega a segunda vuelta “huérfano” de su candidato y debe elegir el mal menor.\n\n\n\n\n\nPorcentaje del candidato ganador en primera vuelta — Perú vs umbral de mayoría\n\n\n\n\n\n\n\n\n\n\nWarning¿Qué significa esto?\n\n\n\nCada presidente peruano reciente asumió con un mandato que en primera vuelta representaba a menos de 1 de cada 3 electores. El resto llegó al gobierno gracias al “voto útil” de segunda vuelta — un voto contra el otro candidato, no necesariamente a favor del ganador. Esa es la raíz de la decepción posterior.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>¿Por qué votamos y luego nos quejamos?</span>"
+    ]
+  },
+  {
+    "objectID": "02_datos_metodologia.html",
+    "href": "02_datos_metodologia.html",
+    "title": "3  Datos y metodología",
+    "section": "",
+    "text": "3.1 ¿De dónde vienen los datos?\nEste análisis integra cuatro fuentes de datos públicas:\nEl dataset integrado final tiene 1890 filas y 57 variables, cubriendo las cuatro elecciones con información socioeconómica cruzada.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Datos y metodología</span>"
+    ]
+  },
+  {
+    "objectID": "02_datos_metodologia.html#de-dónde-vienen-los-datos",
+    "href": "02_datos_metodologia.html#de-dónde-vienen-los-datos",
+    "title": "3  Datos y metodología",
+    "section": "",
+    "text": "Dataset\nFuente\nCobertura\n\n\n\n\nResultados electorales 2006\nONPE\n1,874 distritos, 2da vuelta\n\n\nResultados electorales 2011\nONPE\n1,874 distritos, 2da vuelta\n\n\nResultados electorales 2016\nONPE\n1,874 distritos, 2da vuelta\n\n\nResultados electorales 2021\nONPE / GitHub público\n1,874 distritos, 1ra y 2da vuelta\n\n\nIDH 2024 distrital\nINEI / PNUD\n1,874 distritos\n\n\nShapefile distritos\nINEI 2025\nGeometría de 1,874 distritos",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Datos y metodología</span>"
+    ]
+  },
+  {
+    "objectID": "02_datos_metodologia.html#cómo-se-construyó-el-dataset",
+    "href": "02_datos_metodologia.html#cómo-se-construyó-el-dataset",
+    "title": "3  Datos y metodología",
+    "section": "3.2 ¿Cómo se construyó el dataset?",
+    "text": "3.2 ¿Cómo se construyó el dataset?\nEl proceso de integración siguió estos pasos:\n\nEstandarización del UBIGEO: clave de 6 dígitos con cero a la izquierda para garantizar el cruce entre fuentes.\nAgregación distrital: los datos crudos de ONPE vienen a nivel de mesa. Se agruparon por distrito sumando votos y calculando porcentajes sobre votos válidos.\nCruce con IDH 2024: el Excel del PNUD-INEI se procesó para extraer la hoja 2024 y se unió al dataset electoral por UBIGEO.\nClasificación territorial: cada distrito fue clasificado según su comportamiento en primera vuelta 2021 (bastión FP, bastión PL, voto disperso, disputa moderada).",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Datos y metodología</span>"
+    ]
+  },
+  {
+    "objectID": "02_datos_metodologia.html#glosario-de-indicadores",
+    "href": "02_datos_metodologia.html#glosario-de-indicadores",
+    "title": "3  Datos y metodología",
+    "section": "3.3 Glosario de indicadores",
+    "text": "3.3 Glosario de indicadores\n\n\n\n\n\n\n\nIndicador\nDefinición\n\n\n\n\nFidelidad electoral\nNúmero de elecciones (0-4) en que el distrito votó al mismo campo ideológico\n\n\nVoto disperso\nDistrito donde &gt;50% del voto en 1ra vuelta 2021 fue a partidos distintos de FP y PL\n\n\nMargen FP-PL\nDiferencia de puntos porcentuales entre FP y PL en 2da vuelta 2021\n\n\nCompetitivo\nDistrito con margen FP-PL menor a 15 puntos\n\n\nIDH 2024\nÍndice compuesto de esperanza de vida, educación e ingresos (0-1)\n\n\nFactor de afinidad\nPeso territorial asignado en la simulación: 0.5 + score (rango 0.5–1.5)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Datos y metodología</span>"
+    ]
+  },
+  {
+    "objectID": "02_datos_metodologia.html#lo-que-dicen-los-datos-participación-electoral-promedio-por-elección",
+    "href": "02_datos_metodologia.html#lo-que-dicen-los-datos-participación-electoral-promedio-por-elección",
+    "title": "3  Datos y metodología",
+    "section": "3.4 Lo que dicen los datos: participación electoral promedio por elección",
+    "text": "3.4 Lo que dicen los datos: participación electoral promedio por elección\n\n\n\nParticipación electoral promedio distrital por elección (2da vuelta)\n\n\nElección\nParticipación promedio (%)\n\n\n\n\n2006\n87.3\n\n\n2011\n77.3\n\n\n2016\n72.4\n\n\n2021\n69.8",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Datos y metodología</span>"
+    ]
+  },
+  {
+    "objectID": "02_datos_metodologia.html#porcentaje-del-candidato-ganador-en-primera-vuelta",
+    "href": "02_datos_metodologia.html#porcentaje-del-candidato-ganador-en-primera-vuelta",
+    "title": "3  Datos y metodología",
+    "section": "3.5 Porcentaje del candidato ganador en primera vuelta",
+    "text": "3.5 Porcentaje del candidato ganador en primera vuelta",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Datos y metodología</span>"
+    ]
+  },
+  {
+    "objectID": "02_datos_metodologia.html#una-nota-sobre-causalidad",
+    "href": "02_datos_metodologia.html#una-nota-sobre-causalidad",
+    "title": "3  Datos y metodología",
+    "section": "3.6 Una nota sobre causalidad",
+    "text": "3.6 Una nota sobre causalidad\nEste análisis es descriptivo y correlacional. Las relaciones que encontramos entre IDH y voto, o entre altitud y preferencia electoral, no implican causalidad directa. Son patrones estadísticos que permiten entender el comportamiento agregado del electorado.\nLa simulación de escenarios 2026 es un ejercicio metodológico basado en supuestos explícitos — no es un pronóstico.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Datos y metodología</span>"
+    ]
+  },
+  {
+    "objectID": "03_fidelidad_electoral.html",
+    "href": "03_fidelidad_electoral.html",
+    "title": "4  ¿Quién vota siempre igual? Fidelidad electoral 2006–2021",
+    "section": "",
+    "text": "4.1 ¿Qué es la fidelidad electoral?\nLlamamos fidelidad electoral a la consistencia con la que un distrito vota hacia el mismo “lado” ideológico en distintas elecciones. Para este análisis, definimos dos campos:\nUn distrito “4/4” votó siempre al mismo campo en las cuatro elecciones. Uno “0/4” siempre votó al campo contrario. Los “2/4” son los distritos más volátiles — el corazón del voto disponible.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>¿Quién vota siempre igual? Fidelidad electoral 2006–2021</span>"
+    ]
+  },
+  {
+    "objectID": "03_fidelidad_electoral.html#qué-es-la-fidelidad-electoral",
+    "href": "03_fidelidad_electoral.html#qué-es-la-fidelidad-electoral",
+    "title": "4  ¿Quién vota siempre igual? Fidelidad electoral 2006–2021",
+    "section": "",
+    "text": "Campo popular-izquierda: Humala 2006, Humala 2011, Castillo 2021\nCampo derechista-liberal: García 2006, Keiko 2011, PPK 2016, Keiko 2021",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>¿Quién vota siempre igual? Fidelidad electoral 2006–2021</span>"
+    ]
+  },
+  {
+    "objectID": "03_fidelidad_electoral.html#el-resultado-muy-pocos-son-completamente-fieles",
+    "href": "03_fidelidad_electoral.html#el-resultado-muy-pocos-son-completamente-fieles",
+    "title": "4  ¿Quién vota siempre igual? Fidelidad electoral 2006–2021",
+    "section": "4.2 El resultado: muy pocos son completamente fieles",
+    "text": "4.2 El resultado: muy pocos son completamente fieles\n\n\n\n\n\nDistribución de distritos según nivel de fidelidad electoral\n\n\n\n\n\n\n\n\n\n\nNote¿Qué muestra este gráfico?\n\n\n\nSolo el 2.5% de los distritos ha votado siempre al mismo lado ideológico en las cuatro elecciones. El grupo más grande (41.5%) tiene fidelidad 1/4 — es decir, cambian en 3 de cada 4 elecciones.\n\n\n\n\n\n\n\n\nTip¿Para qué sirve saberlo?\n\n\n\nPara un candidato o equipo de campaña, los distritos con fidelidad 2/4 son el territorio de máxima oportunidad: no tienen dueño y han demostrado que pueden votar en cualquier dirección. Son el campo de batalla real.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>¿Quién vota siempre igual? Fidelidad electoral 2006–2021</span>"
+    ]
+  },
+  {
+    "objectID": "03_fidelidad_electoral.html#idh-y-fidelidad-los-más-educados-son-más-fieles",
+    "href": "03_fidelidad_electoral.html#idh-y-fidelidad-los-más-educados-son-más-fieles",
+    "title": "4  ¿Quién vota siempre igual? Fidelidad electoral 2006–2021",
+    "section": "4.3 IDH y fidelidad: ¿los más educados son más fieles?",
+    "text": "4.3 IDH y fidelidad: ¿los más educados son más fieles?\n\n\n\n\n\nIDH promedio según nivel de fidelidad electoral\n\n\n\n\n\n\n\n\n\n\nWarning¿Qué significa esto?\n\n\n\nLos distritos con IDH más alto (0/4 — siempre al lado contrario o volátiles) son los que tienen mayor desarrollo humano. Esto es contraintuitivo pero tiene lógica: los distritos más urbanos y educados votan con más pragmatismo, cambian según el contexto y el candidato, y son más difíciles de “retener” ideológicamente.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>¿Quién vota siempre igual? Fidelidad electoral 2006–2021</span>"
+    ]
+  },
+  {
+    "objectID": "03_fidelidad_electoral.html#mapa-interactivo-fidelidad-por-distrito",
+    "href": "03_fidelidad_electoral.html#mapa-interactivo-fidelidad-por-distrito",
+    "title": "4  ¿Quién vota siempre igual? Fidelidad electoral 2006–2021",
+    "section": "4.4 Mapa interactivo: fidelidad por distrito",
+    "text": "4.4 Mapa interactivo: fidelidad por distrito\n\n\n\n\n\nFidelidad electoral distrital 2006–2021. Rojo = siempre al mismo lado | Azul = siempre al contrario.\n\n\n\n\n\n\n\n\n\n\nNote¿Cómo leer el mapa?\n\n\n\nAzul oscuro (4/4): distritos que siempre votaron al mismo lado — zonas andinas del sur y sierra central. Rojo (0/4): siempre al lado contrario — concentrado en zonas costeras de alta urbanización. Amarillo (2/4): el voto más volátil y disputado — distribuido por todo el país. Puedes hacer clic en cualquier distrito para ver su historial completo.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>¿Quién vota siempre igual? Fidelidad electoral 2006–2021</span>"
+    ]
+  },
+  {
+    "objectID": "04_idh_y_voto.html",
+    "href": "04_idh_y_voto.html",
+    "title": "5  ¿Cómo vota el Perú según su nivel de desarrollo?",
+    "section": "",
+    "text": "5.1 El IDH como radiografía del voto\nEl Índice de Desarrollo Humano (IDH) resume en un solo número tres dimensiones: esperanza de vida, educación e ingresos. Usamos la versión 2024, la más reciente disponible a nivel distrital.\nCruzar IDH con resultados electorales nos permite responder una pregunta que va más allá de la política: ¿el nivel de vida de un distrito predice cómo vota?\nLa respuesta es sí — pero en una dirección que sorprende a muchos.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>¿Cómo vota el Perú según su nivel de desarrollo?</span>"
+    ]
+  },
+  {
+    "objectID": "04_idh_y_voto.html#quién-vota-a-quién-según-el-idh",
+    "href": "04_idh_y_voto.html#quién-vota-a-quién-según-el-idh",
+    "title": "5  ¿Cómo vota el Perú según su nivel de desarrollo?",
+    "section": "5.2 ¿Quién vota a quién según el IDH?",
+    "text": "5.2 ¿Quién vota a quién según el IDH?\n\n\n\n\n\nIDH promedio de los distritos que votaron a cada candidato ganador\n\n\n\n\n\n\n\n\n\n\nNote¿Qué muestra este gráfico?\n\n\n\nLos candidatos de orientación izquierdista o popular (Humala, Castillo) ganan en distritos con IDH más bajo. Los de orientación liberal o conservadora (García, Keiko, PPK) ganan en distritos con IDH más alto. El patrón se ha mantenido estable durante 20 años.\n\n\n\n\n\n\n\n\nTip¿Para qué sirve?\n\n\n\nEste gráfico muestra que la división política peruana no es ideológica en abstracto — es territorial y socioeconómica. Un candidato que quiera romper ese patrón necesita propuestas que resuenen en distritos que históricamente están “asignados” al otro campo.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>¿Cómo vota el Perú según su nivel de desarrollo?</span>"
+    ]
+  },
+  {
+    "objectID": "04_idh_y_voto.html#idh-2024-vs-voto-a-castillo-2021",
+    "href": "04_idh_y_voto.html#idh-2024-vs-voto-a-castillo-2021",
+    "title": "5  ¿Cómo vota el Perú según su nivel de desarrollo?",
+    "section": "5.3 IDH 2024 vs voto a Castillo 2021",
+    "text": "5.3 IDH 2024 vs voto a Castillo 2021\n\n\n\n\n\nRelación entre IDH 2024 y porcentaje de voto a Castillo\n\n\n\n\n\n\n\n\n\n\nWarning¿Qué significa esto?\n\n\n\nLa correlación negativa entre IDH y voto a Castillo es robusta. Pero cuidado con la interpretación simplista: no significa que “los pobres votan mal”. Significa que los territorios con menos acceso a servicios, educación e ingresos tienen un patrón de respaldo a candidatos que prometen cambio estructural — independientemente de si ese cambio efectivamente llega.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>¿Cómo vota el Perú según su nivel de desarrollo?</span>"
+    ]
+  },
+  {
+    "objectID": "04_idh_y_voto.html#mapa-del-idh-2024-por-distrito",
+    "href": "04_idh_y_voto.html#mapa-del-idh-2024-por-distrito",
+    "title": "5  ¿Cómo vota el Perú según su nivel de desarrollo?",
+    "section": "5.4 Mapa del IDH 2024 por distrito",
+    "text": "5.4 Mapa del IDH 2024 por distrito\n\n\n\n\n\nIDH 2024 por distrito. Amarillo = IDH bajo | Rojo oscuro = IDH alto.\n\n\n\n\n\n\n\n\n\n\nNote¿Cómo leer el mapa?\n\n\n\nAmarillo claro: distritos con IDH muy bajo — sierra sur, zonas amazónicas remotas. Naranja oscuro / rojo: IDH más alto — Lima metropolitana, Callao, Arequipa ciudad, Trujillo, Moquegua. Los colores más cálidos indican menor desarrollo humano.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>¿Cómo vota el Perú según su nivel de desarrollo?</span>"
+    ]
+  },
+  {
+    "objectID": "05_voto_disperso.html",
+    "href": "05_voto_disperso.html",
+    "title": "6  El voto que no fue a nadie — territorios disponibles en 2026",
+    "section": "",
+    "text": "6.1 El voto que se dispersó en 2021\nEn la primera vuelta de 2021 compitieron 18 candidatos. Solo dos pasaron a segunda vuelta: Castillo y Fujimori. El resto del voto — en muchos distritos más del 70% — fue a candidatos que no llegaron a ningún lado.\nEse voto no desapareció. En segunda vuelta, esos electores tuvieron que decidir entre dos opciones que no habían elegido. Algunos votaron útilmente, otros anularon o se abstuvieron.\nEn 2026, ese mismo voto disperso vuelve a estar disponible.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>El voto que no fue a nadie — territorios disponibles en 2026</span>"
+    ]
+  },
+  {
+    "objectID": "05_voto_disperso.html#cuánto-voto-quedó-disponible",
+    "href": "05_voto_disperso.html#cuánto-voto-quedó-disponible",
+    "title": "6  El voto que no fue a nadie — territorios disponibles en 2026",
+    "section": "6.2 ¿Cuánto voto quedó disponible?",
+    "text": "6.2 ¿Cuánto voto quedó disponible?\n\n\n\n\n\nDistribución del electorado por tipo de territorio (1ra vuelta 2021)\n\n\n\n\n\n\n\n\n\n\nNote¿Qué muestra este gráfico?\n\n\n\nLos “bastiones” de Perú Libre concentran muchos distritos (42%) pero poca gente (16%). Los territorios de voto disperso tienen el 45% de los distritos y el 77% de los electores. La razón: son los distritos urbanos grandes — Lima, Trujillo, Arequipa, Chiclayo.\n\n\n\n\n\n\n\n\nTip¿Para qué sirve?\n\n\n\nUn candidato que quiera maximizar votos debe priorizar donde vive la gente, no donde hay más distritos. Este gráfico muestra que la estrategia territorial correcta es enfocarse en pocos departamentos pero muy poblados.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>El voto que no fue a nadie — territorios disponibles en 2026</span>"
+    ]
+  },
+  {
+    "objectID": "05_voto_disperso.html#mapa-tipo-de-territorio-electoral",
+    "href": "05_voto_disperso.html#mapa-tipo-de-territorio-electoral",
+    "title": "6  El voto que no fue a nadie — territorios disponibles en 2026",
+    "section": "6.3 Mapa: tipo de territorio electoral",
+    "text": "6.3 Mapa: tipo de territorio electoral\n\n\n\n\n\nTerritorios electorales — 1ra vuelta 2021. Verde = voto disperso | Rojo = bastión FP | Azul = bastión PL.\n\n\n\n\n\n\n\n\n\n\nNote¿Cómo leer el mapa?\n\n\n\nRojo = bastión de Fuerza Popular (costa norte y Lima). Azul = bastión de Perú Libre (sierra sur y centro). Verde = voto muy disperso — el territorio disponible. Amarillo = disputa moderada. El color del distrito indica su perfil electoral en la primera vuelta de 2021.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>El voto que no fue a nadie — territorios disponibles en 2026</span>"
+    ]
+  },
+  {
+    "objectID": "06_escenarios_2026.html",
+    "href": "06_escenarios_2026.html",
+    "title": "7  ¿Quién puede ganar en 2026? Escenarios para un tercer candidato",
+    "section": "",
+    "text": "7.1 El escenario para 2026\nCon más de 20 candidatos en primera vuelta, el umbral para pasar a segunda vuelta podría ser tan bajo como 10-12% del total de votos, equivalente a entre 1.2 y 1.8 millones de votos.\nEl análisis anterior mostró que hay un electorado disponible masivo en territorios de voto disperso. La pregunta ahora es: ¿cuánto de ese voto puede capturar un candidato de perfil moderado, con bajo antivoto y sin base partidaria consolidada?",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Quién puede ganar en 2026? Escenarios para un tercer candidato</span>"
+    ]
+  },
+  {
+    "objectID": "06_escenarios_2026.html#la-metodología-de-simulación",
+    "href": "06_escenarios_2026.html#la-metodología-de-simulación",
+    "title": "7  ¿Quién puede ganar en 2026? Escenarios para un tercer candidato",
+    "section": "7.2 La metodología de simulación",
+    "text": "7.2 La metodología de simulación\nUsamos una fórmula transparente por distrito:\n\\[\\text{Votos} = E \\times \\frac{P}{100} \\times \\frac{D}{100} \\times T \\times F\\]\nDonde: - E = electores hábiles del distrito - P = participación histórica 2021 (%) - D = voto disperso en 1ra vuelta 2021 (%) - T = tasa de captura (el supuesto del escenario) - F = factor de afinidad territorial = 0.5 + índice (rango 0.5–1.5)\n\n\n\nSimulación de votos para un tercer candidato — Elecciones 2026\n\n\n\n\n\n\n\n\nEscenario\nVotos estimados\n% del total 2021\n¿Pasa a 2da vuelta?\n\n\n\n\nPesimista (8%)\n895,928\n5.1\nSí — segundo o tercero\n\n\nModerado (15%)\n1,679,876\n9.6\nNo — queda fuera\n\n\nOptimista (22%)\n2,463,831\n14.1\nEn el límite\n\n\n\n\n\n\n\n\n\n\n\nNote¿Qué muestran estos números?\n\n\n\nEl escenario moderado (15% de captura del voto disperso) sitúa al candidato en 1.68 millones de votos — exactamente en el umbral de segunda vuelta con alta fragmentación. No es fácil pero es posible.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Quién puede ganar en 2026? Escenarios para un tercer candidato</span>"
+    ]
+  },
+  {
+    "objectID": "06_escenarios_2026.html#de-dónde-vendrían-los-votos",
+    "href": "06_escenarios_2026.html#de-dónde-vendrían-los-votos",
+    "title": "7  ¿Quién puede ganar en 2026? Escenarios para un tercer candidato",
+    "section": "7.3 ¿De dónde vendrían los votos?",
+    "text": "7.3 ¿De dónde vendrían los votos?\n\n\n\n\n\nVotos estimados por departamento en escenario moderado\n\n\n\n\n\n\n\n\n\n\nWarning¿Qué significa la concentración en Lima?\n\n\n\nEl 50% de los votos posibles están en Lima. Esto no es una sorpresa — Lima concentra el 30% del padrón electoral nacional. Pero sí tiene una implicación estratégica clara: ganar Lima o perder Lima define el resultado. Un candidato que no tiene presencia en Lima no puede pasar a segunda vuelta, por más que barra en provincia.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Quién puede ganar en 2026? Escenarios para un tercer candidato</span>"
+    ]
+  },
+  {
+    "objectID": "06_escenarios_2026.html#mapa-concentración-de-votos-potenciales",
+    "href": "06_escenarios_2026.html#mapa-concentración-de-votos-potenciales",
+    "title": "7  ¿Quién puede ganar en 2026? Escenarios para un tercer candidato",
+    "section": "7.4 Mapa: concentración de votos potenciales",
+    "text": "7.4 Mapa: concentración de votos potenciales\n\n\n\n\n\nConcentración de votos potenciales — escenario moderado (15%). Escala logarítmica.\n\n\n\n\n\n\n\n\n\n\nNote¿Cómo leer el mapa?\n\n\n\nVerde oscuro = mayor concentración de votos potenciales. Lima aparece como el territorio más oscuro por escala poblacional. Fuera de Lima, los verdes más intensos aparecen en Trujillo, Arequipa, Chiclayo y Huancayo. Los tonos más oscuros indican mayor concentración de votos potenciales para un candidato de centroizquierda moderada.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>¿Quién puede ganar en 2026? Escenarios para un tercer candidato</span>"
+    ]
+  },
+  {
+    "objectID": "07_conclusiones.html",
+    "href": "07_conclusiones.html",
+    "title": "8  Conclusiones: lo que los datos le dicen al ciudadano",
+    "section": "",
+    "text": "8.1 Lo que aprendimos\nEste análisis recorrió cuatro elecciones, 1,890 distritos y veinte años de historia electoral peruana. Las conclusiones no son de un partido ni de un candidato — son del sistema.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Conclusiones: lo que los datos le dicen al ciudadano</span>"
+    ]
+  },
+  {
+    "objectID": "07_conclusiones.html#lo-que-aprendimos",
+    "href": "07_conclusiones.html#lo-que-aprendimos",
+    "title": "8  Conclusiones: lo que los datos le dicen al ciudadano",
+    "section": "",
+    "text": "Note1. El peruano no vota mal — el sistema lo pone en una trampa\n\n\n\nCon 18+ candidatos en primera vuelta, el voto se dispersa inevitablemente. El ganador puede llegar a segunda vuelta representando al 15-19% del electorado. El 80% restante debe elegir entre dos opciones que no quería. El “arrepentimiento” post-electoral no es irracionalidad: es la consecuencia lógica de un diseño institucional que no resuelve la fragmentación.\n\n\n\n\n\n\n\n\nWarning2. El territorio manda: IDH y voto son inseparables\n\n\n\nLos candidatos de orientación popular ganan en distritos con menor IDH. Los de orientación liberal ganan donde hay más desarrollo. Este patrón se ha mantenido estable durante 20 años y en cuatro elecciones distintas. No es ideología abstracta — es geografía socioeconómica concreta.\n\n\n\n\n\n\n\n\nImportant3. Solo el 2.5% de los distritos vota siempre igual\n\n\n\nLa fidelidad electoral plena es la excepción. La mayoría de distritos cambia de preferencia según el candidato y el contexto. Eso significa que el electorado peruano no está “capturado” — está disponible para ser convencido.\n\n\n\n\n\n\n\n\nTip4. El voto disperso es el recurso más valioso de 2026\n\n\n\n845 distritos con más del 50% de voto a candidatos menores en 2021. Esos distritos concentran el 77% del electorado nacional. Son las ciudades, los centros urbanos, los distritos con más IDH. El candidato que consolide ese voto — sin necesitar los bastiones ideológicos duros de ningún lado — tiene una ruta real hacia la segunda vuelta.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Conclusiones: lo que los datos le dicen al ciudadano</span>"
+    ]
+  },
+  {
+    "objectID": "07_conclusiones.html#una-reflexión-final-el-análisis-como-ejercicio-ciudadano",
+    "href": "07_conclusiones.html#una-reflexión-final-el-análisis-como-ejercicio-ciudadano",
+    "title": "8  Conclusiones: lo que los datos le dicen al ciudadano",
+    "section": "8.2 Una reflexión final: el análisis como ejercicio ciudadano",
+    "text": "8.2 Una reflexión final: el análisis como ejercicio ciudadano\nEste documento nació de una pregunta honesta: ¿por qué votamos y luego nos quejamos? La respuesta que encontramos en los datos no es cómoda para nadie.\nNo es cómoda para la izquierda, que debe reconocer que sus bastiones están en los territorios más pobres — y que la pobreza no ha cambiado sustancialmente en veinte años de elecciones.\nNo es cómoda para la derecha, que gana en los distritos más ricos pero no logra consolidar una mayoría nacional sin el voto del “mal menor”.\nY no es cómoda para el sistema, que permite que alguien llegue a la presidencia representando a menos de uno de cada cinco electores.\nLo que sí es alentador: el electorado peruano no es irracional. Es volátil porque el sistema es inestable. Cuando encuentre opciones que representen mejor sus preferencias, la historia electoral muestra que es capaz de moverse masivamente en esa dirección.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Conclusiones: lo que los datos le dicen al ciudadano</span>"
+    ]
+  },
+  {
+    "objectID": "07_conclusiones.html#datos-abiertos",
+    "href": "07_conclusiones.html#datos-abiertos",
+    "title": "8  Conclusiones: lo que los datos le dicen al ciudadano",
+    "section": "8.3 Datos abiertos",
+    "text": "8.3 Datos abiertos\nTodos los datos utilizados en este análisis están disponibles para descarga y uso libre:\n\n\n\n\n\n\n\nArchivo\nDescripción\n\n\n\n\ndataset_electoral_peru_completo.csv\n57 variables electorales y socioeconómicas por distrito\n\n\ntabla_fidelidad_distrital_completa.csv\nFidelidad electoral 2006-2021 por distrito\n\n\ndistritos_voto_disperso.csv\nClasificación territorial y métricas de voto disponible\n\n\nsimulacion_votos_lopezchau_2026.csv\nSimulación de tres escenarios por distrito\n\n\n\nLicencia: Creative Commons CC-BY 4.0. Puedes usar, modificar y redistribuir citando la fuente.\n\nAnálisis ciudadano basado en datos públicos de ONPE e INEI. No representa la posición de ningún partido, candidato ni institución.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Conclusiones: lo que los datos le dicen al ciudadano</span>"
+    ]
+  }
+]

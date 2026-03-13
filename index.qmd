@@ -1,0 +1,101 @@
+---
+title: ""
+---
+
+# G2S Analytics
+
+### Evaluación cuantitativa de brechas territoriales
+
+> Evidencia cuantitativa para decisiones estratégicas.
+
+Consultoría especializada en análisis territorial y modelado estadístico aplicado.
+
+Dirección: Carlos Gino Garibotto Sandoval  
+Economista | Especialista en Análisis Económico Aplicado
+
+Desarrollamos marcos analíticos estructurados para transformar datos en evidencia 
+estratégica y soporte de decisión.
+
+
+---
+
+## Propuesta de Valor
+
+Integramos formación económica, rigor metodológico y herramientas modernas de 
+análisis para reducir incertidumbre y fortalecer la calidad de decisión en 
+organizaciones públicas y privadas.
+
+
+---
+
+## Áreas de trabajo
+
+- Análisis estadístico aplicado a decisiones estratégicas  
+- Estudios económicos y territoriales  
+- Modelos explicativos y predictivos  
+- Procesamiento y estructuración de bases de datos  
+- Análisis de información pública y electoral  
+
+
+---
+
+## Enfoque Institucional
+
+G2S Analytics desarrolla cada proyecto bajo principios de:
+
+- Rigurosidad estadística y consistencia metodológica  
+- Transparencia en el tratamiento de datos  
+- Reproducibilidad técnica  
+- Comunicación clara para niveles directivos  
+
+El objetivo es reducir la incertidumbre y mejorar la calidad de la decisión. 
+
+---
+
+## Servicios Profesionales
+
+### Análisis para sector privado
+
+- Modelos estadísticos aplicados a decisiones empresariales  
+- Estudios de mercado con enfoque cuantitativo  
+- Evaluación de información financiera y económica  
+
+### Análisis para sector público y político-electoral
+
+- Estudios territoriales y demográficos  
+- Procesamiento y análisis de datos públicos  
+- Modelos de proyección y escenarios  
+
+### Desarrollo técnico
+
+- Limpieza y estructuración de bases de datos estructuradas  
+- Reportes reproducibles en R  
+- Visualización ejecutiva de resultados  
+
+---
+
+## Curriculum Vitae
+
+[Descargar CV (PDF)](CV_Garibotto_ATS.pdf)
+
+
+---
+
+## Enfoque Metodológico
+
+La consultoría se basa en principios de:
+
+- Rigurosidad estadística  
+- Transparencia metodológica  
+- Reproducibilidad de resultados  
+- Comunicación clara para tomadores de decisión  
+
+
+---
+
+## En transición de marca
+
+Actualmente operando desde la plataforma profesional  
+**cargingarsan.github.io**  
+
+Próxima evolución de identidad: **G2S-analytics.pe**

@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: .
+
+website:
+  title: "G2S Analytics"
+  navbar:
+    background: light
+    left:
+      - text: Inicio
+        href: index.qmd
+      - text: Proyectos
+        href: proyectos.qmd
+      - text: G2S Territorial Insights
+        href: territorial_insights.qmd
+      - text: CV
+        href: cv.qmd
+    right:
+      - text: Contacto
+        href: cargingarsan@gmail.com
+
+  page-footer:
+    left: "© 2026 G2S Analytics"
+    right: "Análisis cuantitativo aplicado"
+
+format:
+  html:
+    theme: flatly
+    toc: false
+    page-layout: full

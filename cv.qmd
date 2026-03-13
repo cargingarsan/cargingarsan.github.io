@@ -1,0 +1,11 @@
+---
+title: ""
+format: html
+editor: visual
+---
+
+# Curriculum Vitae
+
+Puedes descargar mi CV en formato PDF aquí:
+
+[Descargar CV (PDF)](CV_Garibotto_ATS.pdf)
