@@ -1,8 +1,24 @@
+# R
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
-.Rproj
+*.Rproj
+
+# Quarto
 /.quarto/
-**/*.quarto_ipynb
 _site/
+*_files/
+
+# Mapas interactivos pesados (Leaflet/plotly — usar versiones estáticas)
+mapas/
+graficos/
+
+# Datos y modelos (nunca al repo público)
+*.rds
+*.csv
+data/
+
+# Sistema
+.DS_Store
+Thumbs.db
