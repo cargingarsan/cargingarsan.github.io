@@ -1,15 +1,41 @@
 ---
-title: G2S Territorial Insights
+title: Proyectos y Casos de Análisis
 ---
-Sistema Nacional de Indicadores Socioeconómicos Municipales – Perú
-
-# Proyectos y Casos de Análisis
 
 Los siguientes trabajos reflejan aplicaciones de análisis cuantitativo orientadas a interpretación estratégica y toma de decisiones.
 
 ------------------------------------------------------------------------
 
-## Sistema de Recomendación Comercial — Datathon Entel 2022
+## Segmentación por perfil digital del consumidor — Entel Empresas
+
+**Tipo:** Segmentación no supervisada + modelos de propensión por segmento\
+**Enfoque:** K-Means + LightGBM / XGBoost / Random Forest · base postpago Entel Empresas
+
+### Problema
+
+Identificar grupos de clientes de la base móvil postpago de Entel Empresas con perfiles de consumo digital diferenciados, y construir un modelo de propensión a la renovación de plan calibrado por segmento para focalizar campañas comerciales con máximo retorno.
+
+### Metodología
+
+-   Integración de 7 fuentes de datos (~500,000 líneas móviles)
+-   Feature engineering: tráfico por app, perfil digital, antigüedad, terminal, roaming y penalidades
+-   Segmentación K-Means con tidyclust (K=4 por criterio comercial)
+-   Modelos de clasificación por segmento: XGBoost, LightGBM y Random Forest
+-   Balanceo de clases vía SMOTE — desbalance natural ~15:1 en conversiones Telco
+-   Evaluación por AUC-ROC, matriz de confusión e importancia de variables
+
+### Resultados
+
+-   4 segmentos con patrones de consumo digital diferenciados y accionables comercialmente
+-   Modelos por segmento con AUC competitivo para producción en Telco Perú
+-   Identificación de variables predictoras clave por segmento
+-   Reporte reproducible en Quarto con visualizaciones estáticas
+
+[Ver reporte completo](segmentacion-telco/index.html)
+
+------------------------------------------------------------------------
+
+## Convergencia Digital — Datathon Entel 2022
 
 **Tipo:** Modelo predictivo de clasificación binaria\
 **Enfoque:** Machine learning aplicado a retención y conversión de clientes
@@ -31,7 +57,6 @@ Identificar qué clientes de la base móvil de Entel tienen mayor probabilidad d
 -   **AUC: 0.81** en datos no vistos
 -   **Lift de 32.8x** en el decil de mayor probabilidad
 -   Contactar el 20% de mayor score captura el 57% de todos los adoptantes reales
--   App Shiny interactiva para exploración de scores y umbrales, desplegada en Docker
 
 [Ver reporte completo](entel/index.html)
 
@@ -60,13 +85,7 @@ Construir un sistema estructurado de indicadores socioeconómicos municipales qu
 -   Análisis exploratorio y descriptivo
 -   Identificación de patrones territoriales
 
-### Proyección Institucional
-
-G2S Territorial Insights constituye una línea permanente de análisis territorial dentro de G2S Analytics, orientada al desarrollo continuo de evidencia cuantitativa para diagnóstico y planificación estratégica.
-
-### Evolución prevista
-
-La línea G2S Territorial Insights evolucionará hacia el desarrollo de visualizaciones interactivas y herramientas comparativas para análisis municipal dinámico.
+[Explorar G2S Territorial Insights](territorial_insights.html)
 
 ------------------------------------------------------------------------
 
@@ -87,18 +106,4 @@ Entender la relación temporal entre casos confirmados y fallecimientos por COVI
 -   Análisis de tasa de letalidad ajustada por rezago
 -   Modelado por departamento
 
-### Resultado
-
-Identificación del rezago óptimo entre casos y muertes, evolución de la tasa de letalidad a lo largo de las olas pandémicas, y variabilidad regional en los patrones de mortalidad.
-
 [Ver reporte completo](casos_vs_fallecidos_actualizado_3.html)
-
-------------------------------------------------------------------------
-
-## Modelado Estadístico Aplicado (Casos en desarrollo)
-
-Desarrollo de modelos explicativos y predictivos utilizando R para análisis económico y estructuración de bases de datos complejas.
-
-Próximamente se incorporarán nuevos casos de estudio.
-
-[Explorar G2S Territorial Insights](territorial_insights.html)

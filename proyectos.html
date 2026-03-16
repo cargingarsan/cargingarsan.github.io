@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>G2S Territorial Insights – G2S Analytics</title>
+<title>Proyectos y Casos de Análisis – G2S Analytics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -130,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">G2S Territorial Insights</h1>
+<h1 class="title">Proyectos y Casos de Análisis</h1>
 </div>
 
 
@@ -147,21 +147,49 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Sistema Nacional de Indicadores Socioeconómicos Municipales – Perú</p>
-<section id="proyectos-y-casos-de-análisis" class="level1">
-<h1>Proyectos y Casos de Análisis</h1>
 <p>Los siguientes trabajos reflejan aplicaciones de análisis cuantitativo orientadas a interpretación estratégica y toma de decisiones.</p>
 <hr>
-<section id="sistema-de-recomendación-comercial-datathon-entel-2022" class="level2">
-<h2 class="anchored" data-anchor-id="sistema-de-recomendación-comercial-datathon-entel-2022">Sistema de Recomendación Comercial — Datathon Entel 2022</h2>
-<p><strong>Tipo:</strong> Modelo predictivo de clasificación binaria<br>
-<strong>Enfoque:</strong> Machine learning aplicado a retención y conversión de clientes</p>
+<section id="segmentación-por-perfil-digital-del-consumidor-entel-empresas" class="level2">
+<h2 class="anchored" data-anchor-id="segmentación-por-perfil-digital-del-consumidor-entel-empresas">Segmentación por perfil digital del consumidor — Entel Empresas</h2>
+<p><strong>Tipo:</strong> Segmentación no supervisada + modelos de propensión por segmento<br>
+<strong>Enfoque:</strong> K-Means + LightGBM / XGBoost / Random Forest · base postpago Entel Empresas</p>
 <section id="problema" class="level3">
 <h3 class="anchored" data-anchor-id="problema">Problema</h3>
-<p>Identificar qué clientes de la base móvil de Entel tienen mayor probabilidad de adquirir un producto convergente en abril 2022, permitiendo focalizar campañas comerciales con el máximo retorno sobre inversión.</p>
+<p>Identificar grupos de clientes de la base móvil postpago de Entel Empresas con perfiles de consumo digital diferenciados, y construir un modelo de propensión a la renovación de plan calibrado por segmento para focalizar campañas comerciales con máximo retorno.</p>
 </section>
 <section id="metodología" class="level3">
 <h3 class="anchored" data-anchor-id="metodología">Metodología</h3>
+<ul>
+<li>Integración de 7 fuentes de datos (~500,000 líneas móviles)</li>
+<li>Feature engineering: tráfico por app, perfil digital, antigüedad, terminal, roaming y penalidades</li>
+<li>Segmentación K-Means con tidyclust (K=4 por criterio comercial)</li>
+<li>Modelos de clasificación por segmento: XGBoost, LightGBM y Random Forest</li>
+<li>Balanceo de clases vía SMOTE — desbalance natural ~15:1 en conversiones Telco</li>
+<li>Evaluación por AUC-ROC, matriz de confusión e importancia de variables</li>
+</ul>
+</section>
+<section id="resultados" class="level3">
+<h3 class="anchored" data-anchor-id="resultados">Resultados</h3>
+<ul>
+<li>4 segmentos con patrones de consumo digital diferenciados y accionables comercialmente</li>
+<li>Modelos por segmento con AUC competitivo para producción en Telco Perú</li>
+<li>Identificación de variables predictoras clave por segmento</li>
+<li>Reporte reproducible en Quarto con visualizaciones estáticas</li>
+</ul>
+<p><a href="segmentacion-telco/index.html">Ver reporte completo</a></p>
+<hr>
+</section>
+</section>
+<section id="convergencia-digital-datathon-entel-2022" class="level2">
+<h2 class="anchored" data-anchor-id="convergencia-digital-datathon-entel-2022">Convergencia Digital — Datathon Entel 2022</h2>
+<p><strong>Tipo:</strong> Modelo predictivo de clasificación binaria<br>
+<strong>Enfoque:</strong> Machine learning aplicado a retención y conversión de clientes</p>
+<section id="problema-1" class="level3">
+<h3 class="anchored" data-anchor-id="problema-1">Problema</h3>
+<p>Identificar qué clientes de la base móvil de Entel tienen mayor probabilidad de adquirir un producto convergente en abril 2022, permitiendo focalizar campañas comerciales con el máximo retorno sobre inversión.</p>
+</section>
+<section id="metodología-1" class="level3">
+<h3 class="anchored" data-anchor-id="metodología-1">Metodología</h3>
 <ul>
 <li>Integración de 8 fuentes de datos transaccionales (~224,000 clientes)</li>
 <li>Feature engineering: 27 variables de antigüedad, consumo, perfil digital y productos</li>
@@ -170,13 +198,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Evaluación por curva ROC, Lift por decil y métricas de clasificación</li>
 </ul>
 </section>
-<section id="resultados" class="level3">
-<h3 class="anchored" data-anchor-id="resultados">Resultados</h3>
+<section id="resultados-1" class="level3">
+<h3 class="anchored" data-anchor-id="resultados-1">Resultados</h3>
 <ul>
 <li><strong>AUC: 0.81</strong> en datos no vistos</li>
 <li><strong>Lift de 32.8x</strong> en el decil de mayor probabilidad</li>
 <li>Contactar el 20% de mayor score captura el 57% de todos los adoptantes reales</li>
-<li>App Shiny interactiva para exploración de scores y umbrales, desplegada en Docker</li>
 </ul>
 <p><a href="entel/index.html">Ver reporte completo</a></p>
 <hr>
@@ -195,8 +222,8 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="objetivo">Objetivo</h3>
 <p>Construir un sistema estructurado de indicadores socioeconómicos municipales que permita identificar patrones territoriales, brechas estructurales y dinámicas comparativas a escala nacional.</p>
 </section>
-<section id="metodología-1" class="level3">
-<h3 class="anchored" data-anchor-id="metodología-1">Metodología</h3>
+<section id="metodología-2" class="level3">
+<h3 class="anchored" data-anchor-id="metodología-2">Metodología</h3>
 <ul>
 <li>Integración de bases públicas oficiales</li>
 <li>Limpieza y homologación de datos</li>
@@ -204,14 +231,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Análisis exploratorio y descriptivo</li>
 <li>Identificación de patrones territoriales</li>
 </ul>
-</section>
-<section id="proyección-institucional" class="level3">
-<h3 class="anchored" data-anchor-id="proyección-institucional">Proyección Institucional</h3>
-<p>G2S Territorial Insights constituye una línea permanente de análisis territorial dentro de G2S Analytics, orientada al desarrollo continuo de evidencia cuantitativa para diagnóstico y planificación estratégica.</p>
-</section>
-<section id="evolución-prevista" class="level3">
-<h3 class="anchored" data-anchor-id="evolución-prevista">Evolución prevista</h3>
-<p>La línea G2S Territorial Insights evolucionará hacia el desarrollo de visualizaciones interactivas y herramientas comparativas para análisis municipal dinámico.</p>
+<p><a href="territorial_insights.html">Explorar G2S Territorial Insights</a></p>
 <hr>
 </section>
 </section>
@@ -219,12 +239,12 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="covid-19-en-perú-casos-vs-fallecidos-20202025">COVID-19 en Perú: Casos vs Fallecidos (2020–2025)</h2>
 <p><strong>Tipo:</strong> Análisis epidemiológico cuantitativo<br>
 <strong>Enfoque:</strong> Modelado de rezagos temporales y tasa de letalidad</p>
-<section id="problema-1" class="level3">
-<h3 class="anchored" data-anchor-id="problema-1">Problema</h3>
+<section id="problema-2" class="level3">
+<h3 class="anchored" data-anchor-id="problema-2">Problema</h3>
 <p>Entender la relación temporal entre casos confirmados y fallecimientos por COVID-19 en el Perú, identificando el desfase entre el diagnóstico y la muerte a nivel nacional y por departamento.</p>
 </section>
-<section id="metodología-2" class="level3">
-<h3 class="anchored" data-anchor-id="metodología-2">Metodología</h3>
+<section id="metodología-3" class="level3">
+<h3 class="anchored" data-anchor-id="metodología-3">Metodología</h3>
 <ul>
 <li>Procesamiento de datos del MINSA (positivos y fallecidos)</li>
 <li>Promedios móviles de 7 días</li>
@@ -232,19 +252,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Análisis de tasa de letalidad ajustada por rezago</li>
 <li>Modelado por departamento</li>
 </ul>
-</section>
-<section id="resultado" class="level3">
-<h3 class="anchored" data-anchor-id="resultado">Resultado</h3>
-<p>Identificación del rezago óptimo entre casos y muertes, evolución de la tasa de letalidad a lo largo de las olas pandémicas, y variabilidad regional en los patrones de mortalidad.</p>
 <p><a href="casos_vs_fallecidos_actualizado_3.html">Ver reporte completo</a></p>
-<hr>
-</section>
-</section>
-<section id="modelado-estadístico-aplicado-casos-en-desarrollo" class="level2">
-<h2 class="anchored" data-anchor-id="modelado-estadístico-aplicado-casos-en-desarrollo">Modelado Estadístico Aplicado (Casos en desarrollo)</h2>
-<p>Desarrollo de modelos explicativos y predictivos utilizando R para análisis económico y estructuración de bases de datos complejas.</p>
-<p>Próximamente se incorporarán nuevos casos de estudio.</p>
-<p><a href="territorial_insights.html">Explorar G2S Territorial Insights</a></p>
 
 
 </section>
