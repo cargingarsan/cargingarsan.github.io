@@ -23,16 +23,16 @@ Identificar grupos de clientes de la base móvil postpago de Entel Empresas con 
 -   Modelos de clasificación por segmento: XGBoost, LightGBM y Random Forest
 -   Balanceo de clases vía SMOTE — desbalance natural ~15:1 en conversiones Telco
 -   RFM adaptado a Telco: Recency=días desde última recarga, Frequency=recargas en 90 días, Monetary=GB×S/8
--   App Shiny interactiva con simulador de umbrales RFM desplegada en Docker
+-   App Shiny interactiva con simulador de umbrales RFM desplegada en shinyapps.io
 
 ### Resultados
 
 -   4 segmentos con patrones de consumo digital diferenciados y accionables comercialmente
 -   8 segmentos RFM con recomendaciones comerciales por canal
 -   Modelos por segmento con AUC competitivo para producción en Telco Perú
--   Reporte reproducible en Quarto · App RFM interactiva en Docker
+-   Reporte reproducible en Quarto · App RFM interactiva en producción
 
-[Ver reporte completo](segmentacion-telco/index.html) · [App RFM interactiva](http://localhost:3839)
+[Ver reporte completo](segmentacion-telco/index.html) · [App RFM interactiva](https://av3aks-c0gino-garibotto0s0.shinyapps.io/rfm-telco-entel/)
 
 ------------------------------------------------------------------------
 
