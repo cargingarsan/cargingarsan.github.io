@@ -13,11 +13,13 @@ website:
         href: proyectos.qmd
       - text: G2S Territorial Insights
         href: territorial_insights.qmd
-      - text: CV
+      - text: CV (ES)
         href: cv.qmd
+      - text: CV (EN)
+        href: cv_en.qmd
     right:
       - text: Contacto
-        href: cargingarsan@gmail.com
+        href: mailto:cargingarsan@gmail.com
 
   page-footer:
     left: "© 2026 G2S Analytics"

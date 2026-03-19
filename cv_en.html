@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Proyectos y Casos de Análisis – G2S Analytics</title>
+<title>Carlos Gino Garibotto Sandoval – G2S Analytics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./proyectos.html" aria-current="page"> 
+    <a class="nav-link" href="./proyectos.html"> 
 <span class="menu-text">Proyectos</span></a>
   </li>  
   <li class="nav-item">
@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">CV (ES)</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv_en.html"> 
+    <a class="nav-link active" href="./cv_en.html" aria-current="page"> 
 <span class="menu-text">CV (EN)</span></a>
   </li>  
 </ul>
@@ -125,21 +125,22 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Proyectos y Casos de Análisis</h1>
+<h1 class="title">Carlos Gino Garibotto Sandoval</h1>
+<p class="subtitle lead">Quantitative Economist | Data Analytics | Retail &amp; Telecommunications</p>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
   
@@ -151,116 +152,189 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Los siguientes trabajos reflejan aplicaciones de análisis cuantitativo orientadas a interpretación estratégica y toma de decisiones.</p>
+<div style="text-align:center; margin-bottom: 1rem;">
+  <span style="color:#595959; font-size:0.95rem;">
+    Lima, Peru &nbsp;|&nbsp; +51 985 344 917 &nbsp;|&nbsp;
+    <a href="mailto:cargingarsan@gmail.com">cargingarsan@gmail.com</a> &nbsp;|&nbsp;
+    <a href="https://cargingarsan.github.io">cargingarsan.github.io</a>
+  </span>
+</div>
+<div style="text-align:center; margin-bottom: 2rem;">
+  <a href="CV_Garibotto_EN_ATS.pdf" class="btn btn-primary btn-sm">
+    ⬇ Download CV (PDF)
+  </a>
+</div>
 <hr>
-<section id="segmentación-por-perfil-digital-del-consumidor-entel-empresas" class="level2">
-<h2 class="anchored" data-anchor-id="segmentación-por-perfil-digital-del-consumidor-entel-empresas">Segmentación por perfil digital del consumidor — Entel Empresas</h2>
-<p><strong>Tipo:</strong> Segmentación no supervisada + modelos de propensión por segmento + RFM Telco<br>
-<strong>Enfoque:</strong> K-Means · LightGBM / XGBoost / Random Forest · RFM adaptado a prepago peruano</p>
-<section id="problema" class="level3">
-<h3 class="anchored" data-anchor-id="problema">Problema</h3>
-<p>Identificar grupos de clientes de la base móvil postpago de Entel Empresas con perfiles de consumo digital diferenciados, construir un modelo de propensión a la renovación de plan calibrado por segmento, y desarrollar una segmentación RFM adaptada al mercado prepago peruano para focalizar campañas comerciales con máximo retorno.</p>
-</section>
-<section id="metodología" class="level3">
-<h3 class="anchored" data-anchor-id="metodología">Metodología</h3>
-<ul>
-<li>Integración de 7 fuentes de datos (~500,000 líneas móviles)</li>
-<li>Feature engineering: tráfico por app, perfil digital, antigüedad, terminal, roaming y penalidades</li>
-<li>Segmentación K-Means con tidyclust (K=4 por criterio comercial)</li>
-<li>Modelos de clasificación por segmento: XGBoost, LightGBM y Random Forest</li>
-<li>Balanceo de clases vía SMOTE — desbalance natural ~15:1 en conversiones Telco</li>
-<li>RFM adaptado a Telco: Recency=días desde última recarga, Frequency=recargas en 90 días, Monetary=GB×S/8</li>
-<li>App Shiny interactiva con simulador de umbrales RFM desplegada en shinyapps.io y Docker</li>
-</ul>
-</section>
-<section id="resultados" class="level3">
-<h3 class="anchored" data-anchor-id="resultados">Resultados</h3>
-<ul>
-<li>4 segmentos con patrones de consumo digital diferenciados y accionables comercialmente</li>
-<li>8 segmentos RFM con recomendaciones comerciales por canal</li>
-<li>Modelos por segmento con AUC competitivo para producción en Telco Perú</li>
-<li>Reporte reproducible en Quarto · App RFM interactiva en producción</li>
-</ul>
-<p><a href="segmentacion-telco/index.html">Ver reporte completo</a> · <a href="https://av3aks-c0gino-garibotto0s0.shinyapps.io/rfm-telco-entel/">App RFM interactiva</a></p>
+<section id="professional-profile" class="level2">
+<h2 class="anchored" data-anchor-id="professional-profile">Professional Profile</h2>
+<p>Economist (UNMSM) with 25+ years of experience in quantitative analysis applied to business decisions. Specialist in customer segmentation, conversion propensity models, and RFM analytics for telecommunications and retail client bases. Hands-on experience with machine learning in R (tidymodels, LightGBM, XGBoost, K-Means), deployment of data applications (Shiny, Docker, shinyapps.io), and reproducible executive reporting with Quarto. Founder of G2S Analytics. Winner of IBM Coding Day Hackathon (MIDIS, 2018).</p>
 <hr>
 </section>
+<section id="key-competencies" class="level2">
+<h2 class="anchored" data-anchor-id="key-competencies">Key Competencies</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Analytics &amp; Modeling</th>
+<th>Tools &amp; Platforms</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Customer segmentation (K-Means, RFM analytics)</td>
+<td>R / RStudio / tidymodels / tidyclust</td>
+</tr>
+<tr class="even">
+<td>Predictive modeling (LightGBM, XGBoost, RF)</td>
+<td>Machine learning for business applications</td>
+</tr>
+<tr class="odd">
+<td>Churn analysis and conversion modeling</td>
+<td>Feature engineering and variable selection</td>
+</tr>
+<tr class="even">
+<td>SMOTE and imbalanced class handling</td>
+<td>SHAP values and model interpretability</td>
+</tr>
+<tr class="odd">
+<td>Shiny Apps and executive dashboards</td>
+<td>Docker · shinyapps.io · GitHub Pages</td>
+</tr>
+<tr class="even">
+<td>Quarto: reproducible reports</td>
+<td>Power BI (Microsoft Certification)</td>
+</tr>
+<tr class="odd">
+<td>SQL and relational databases</td>
+<td>Model Context Protocol (MCP) / AI Agents</td>
+</tr>
+<tr class="even">
+<td>Time series analysis</td>
+<td>Applied econometrics and explanatory models</td>
+</tr>
+</tbody>
+</table>
+<hr>
 </section>
-<section id="convergencia-digital-datathon-entel-2022" class="level2">
-<h2 class="anchored" data-anchor-id="convergencia-digital-datathon-entel-2022">Convergencia Digital — Datathon Entel 2022</h2>
-<p><strong>Tipo:</strong> Modelo predictivo de clasificación binaria<br>
-<strong>Enfoque:</strong> Machine learning aplicado a retención y conversión de clientes</p>
-<section id="problema-1" class="level3">
-<h3 class="anchored" data-anchor-id="problema-1">Problema</h3>
-<p>Identificar qué clientes de la base móvil de Entel tienen mayor probabilidad de adquirir un producto convergente en abril 2022, permitiendo focalizar campañas comerciales con el máximo retorno sobre inversión.</p>
-</section>
-<section id="metodología-1" class="level3">
-<h3 class="anchored" data-anchor-id="metodología-1">Metodología</h3>
+<section id="data-analytics-projects" class="level2">
+<h2 class="anchored" data-anchor-id="data-analytics-projects">Data Analytics Projects</h2>
+<section id="digital-profile-segmentation-entel-empresas-2025" class="level3">
+<h3 class="anchored" data-anchor-id="digital-profile-segmentation-entel-empresas-2025">Digital Profile Segmentation — Entel Empresas <code>2025</code></h3>
+<p><em>Datathon Entel 2022</em></p>
 <ul>
-<li>Integración de 8 fuentes de datos transaccionales (~224,000 clientes)</li>
-<li>Feature engineering: 27 variables de antigüedad, consumo, perfil digital y productos</li>
-<li>Modelo LightGBM con corrección de desbalance de clases (scale_pos_weight ≈ 31.8x)</li>
-<li>Optimización de umbral por máximo F1-Score</li>
-<li>Evaluación por curva ROC, Lift por decil y métricas de clasificación</li>
+<li>Integrated 7 data sources (~500,000 mobile lines) with 40+ engineered features</li>
+<li>K-Means segmentation (K=4) by app consumption profile: streaming, social media, banking and messaging</li>
+<li>Conversion propensity models per segment: LightGBM, XGBoost and Random Forest with SMOTE</li>
+<li>RFM model adapted to Peruvian prepaid market: Recency, Frequency, Monetary (GB×S/8)</li>
+<li>Shiny app with RFM threshold simulator deployed on shinyapps.io and Docker</li>
 </ul>
+<p><a href="segmentacion-telco/index.html">View report</a> · <a href="https://av3aks-c0gino-garibotto0s0.shinyapps.io/rfm-telco-entel/">Interactive RFM App</a></p>
+<hr>
 </section>
-<section id="resultados-1" class="level3">
-<h3 class="anchored" data-anchor-id="resultados-1">Resultados</h3>
+<section id="digital-convergence-propensity-model-2024" class="level3">
+<h3 class="anchored" data-anchor-id="digital-convergence-propensity-model-2024">Digital Convergence — Propensity Model <code>2024</code></h3>
+<p><em>Datathon Entel 2022</em></p>
 <ul>
-<li><strong>AUC: 0.81</strong> en datos no vistos</li>
-<li><strong>Lift de 32.8x</strong> en el decil de mayor probabilidad</li>
-<li>Contactar el 20% de mayor score captura el 57% de todos los adoptantes reales</li>
+<li>LightGBM model to predict convergent product adoption in a base of ~224,000 customers</li>
+<li><strong>AUC: 0.81</strong> | <strong>Lift of 32.8x</strong> in the highest-score decile | F1-Score optimized by threshold</li>
+<li>Top 20% by score captures 57% of all real converters</li>
+<li>Interactive Shiny app for score exploration and lift curve — deployed on Docker</li>
 </ul>
-<p><a href="entel/index.html">Ver reporte completo</a> · <a href="https://av3aks-c0gino-garibotto0s0.shinyapps.io/convergencia-entel/">App interactiva</a></p>
+<p><a href="entel/index.html">View report</a></p>
+<hr>
+</section>
+<section id="covid-19-peru-temporal-lags-and-regional-mortality-2024" class="level3">
+<h3 class="anchored" data-anchor-id="covid-19-peru-temporal-lags-and-regional-mortality-2024">COVID-19 Peru: Temporal Lags and Regional Mortality <code>2024</code></h3>
+<p><em>G2S Analytics</em></p>
+<ul>
+<li>Regression models with lagged variables (lags 0–40 days) on MINSA data across 25 departments</li>
+<li>Identified optimal lag between confirmed cases and fatalities</li>
+<li>Published on GitHub Pages with static visualizations in ggplot2</li>
+</ul>
+<p><a href="casos_vs_fallecidos_actualizado_3.html">View report</a></p>
+<hr>
+</section>
+<section id="g2s-territorial-insights-municipal-indicators-peru-2024present" class="level3">
+<h3 class="anchored" data-anchor-id="g2s-territorial-insights-municipal-indicators-peru-2024present">G2S Territorial Insights — Municipal Indicators Peru <code>2024–Present</code></h3>
+<p><em>G2S Analytics</em></p>
+<ul>
+<li>Integrated official sources (INEI, SIAF, SUSALUD, RENIEC) for 1,874 Peruvian districts</li>
+<li>Standardized socioeconomic indicator system for territorial diagnosis and investment prioritization</li>
+</ul>
+<p><a href="territorial_insights.html">View analysis</a></p>
 <hr>
 </section>
 </section>
-<section id="g2s-territorial-insights" class="level2">
-<h2 class="anchored" data-anchor-id="g2s-territorial-insights">G2S Territorial Insights</h2>
-<p>Sistema Nacional de Indicadores Socioeconómicos Municipales – Perú</p>
-<p><strong>Tipo:</strong> Línea permanente de análisis territorial<br>
-<strong>Cobertura:</strong> Nacional</p>
-<section id="contexto" class="level3">
-<h3 class="anchored" data-anchor-id="contexto">Contexto</h3>
-<p>La información socioeconómica municipal en el Perú se encuentra dispersa en múltiples fuentes oficiales y carece de una estructura integrada que facilite su análisis comparativo y estratégico.</p>
-</section>
-<section id="objetivo" class="level3">
-<h3 class="anchored" data-anchor-id="objetivo">Objetivo</h3>
-<p>Construir un sistema estructurado de indicadores socioeconómicos municipales que permita identificar patrones territoriales, brechas estructurales y dinámicas comparativas a escala nacional.</p>
-</section>
-<section id="metodología-2" class="level3">
-<h3 class="anchored" data-anchor-id="metodología-2">Metodología</h3>
+<section id="professional-experience" class="level2">
+<h2 class="anchored" data-anchor-id="professional-experience">Professional Experience</h2>
+<section id="founder-lead-analyst-g2s-analytics-2023-present-lima-peru" class="level3">
+<h3 class="anchored" data-anchor-id="founder-lead-analyst-g2s-analytics-2023-present-lima-peru">Founder &amp; Lead Analyst · G2S Analytics <code>2023 – Present · Lima, Peru</code></h3>
 <ul>
-<li>Integración de bases públicas oficiales</li>
-<li>Limpieza y homologación de datos</li>
-<li>Construcción de indicadores estandarizados</li>
-<li>Análisis exploratorio y descriptivo</li>
-<li>Identificación de patrones territoriales</li>
+<li>Developed analytical models and indicator systems for public organizations and proprietary research</li>
+<li>Built reproducible data pipelines in R published via GitHub Pages</li>
+<li>Applied machine learning to business and public policy problems</li>
 </ul>
-<p><a href="territorial_insights.html">Explorar G2S Territorial Insights</a></p>
+<hr>
+</section>
+<section id="economic-research-analyst-banco-del-caribe-jun.-1998-apr.-1999-caracas-venezuela" class="level3">
+<h3 class="anchored" data-anchor-id="economic-research-analyst-banco-del-caribe-jun.-1998-apr.-1999-caracas-venezuela">Economic Research Analyst · Banco del Caribe <code>Jun. 1998 – Apr. 1999 · Caracas, Venezuela</code></h3>
+<p><em>Planning &amp; Management Division</em></p>
+<ul>
+<li>Produced macroeconomic studies and reports for the Institutional Planning Division</li>
+<li>Analyzed financial and economic indicators to support executive decision-making</li>
+</ul>
+<hr>
+</section>
+<section id="editor-editora-perú-s.a.-may.-1994-sep.-1995-lima-peru" class="level3">
+<h3 class="anchored" data-anchor-id="editor-editora-perú-s.a.-may.-1994-sep.-1995-lima-peru">Editor · Editora Perú S.A. <code>May. 1994 – Sep. 1995 · Lima, Peru</code></h3>
+<p><em>Empresa Peruana de Servicios Editoriales</em></p>
+<ul>
+<li>Editorial production at a public company in the state communications sector</li>
+</ul>
 <hr>
 </section>
 </section>
-<section id="covid-19-en-perú-casos-vs-fallecidos-20202025" class="level2">
-<h2 class="anchored" data-anchor-id="covid-19-en-perú-casos-vs-fallecidos-20202025">COVID-19 en Perú: Casos vs Fallecidos (2020–2025)</h2>
-<p><strong>Tipo:</strong> Análisis epidemiológico cuantitativo<br>
-<strong>Enfoque:</strong> Modelado de rezagos temporales y tasa de letalidad</p>
-<section id="problema-2" class="level3">
-<h3 class="anchored" data-anchor-id="problema-2">Problema</h3>
-<p>Entender la relación temporal entre casos confirmados y fallecimientos por COVID-19 en el Perú, identificando el desfase entre el diagnóstico y la muerte a nivel nacional y por departamento.</p>
+<section id="education" class="level2">
+<h2 class="anchored" data-anchor-id="education">Education</h2>
+<p><strong>Bachelor’s Degree in Economics</strong> · Specialization: Business Management <code>2023</code><br>
+Universidad Nacional Mayor de San Marcos (UNMSM) — School of Economics · Lima, Peru</p>
+<hr>
 </section>
-<section id="metodología-3" class="level3">
-<h3 class="anchored" data-anchor-id="metodología-3">Metodología</h3>
+<section id="certifications-awards" class="level2">
+<h2 class="anchored" data-anchor-id="certifications-awards">Certifications &amp; Awards</h2>
 <ul>
-<li>Procesamiento de datos del MINSA (positivos y fallecidos)</li>
-<li>Promedios móviles de 7 días</li>
-<li>Modelos de regresión con variables rezagadas (lags 0–40 días)</li>
-<li>Análisis de tasa de letalidad ajustada por rezago</li>
-<li>Modelado por departamento</li>
+<li>🏆 <strong>Winner</strong> — IBM Coding Day Hackathon #SinAnemia · IBM Peru / MIDIS <code>2018</code></li>
+<li>Dashboard in a Day — Power BI | SQL PASS Lima &amp; Power BI User Group Lima <code>2017</code></li>
+<li>PowerBI Official Workshop — BIExpert / Microsoft <code>2017</code></li>
 </ul>
-<p><a href="casos_vs_fallecidos_actualizado_3.html">Ver reporte completo</a></p>
+<hr>
+</section>
+<section id="languages" class="level2">
+<h2 class="anchored" data-anchor-id="languages">Languages</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Language</th>
+<th>Level</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Spanish</td>
+<td>Native</td>
+</tr>
+<tr class="even">
+<td>English</td>
+<td>Intermediate — advanced technical reading</td>
+</tr>
+</tbody>
+</table>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

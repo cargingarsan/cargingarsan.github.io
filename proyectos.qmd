@@ -23,7 +23,7 @@ Identificar grupos de clientes de la base móvil postpago de Entel Empresas con 
 -   Modelos de clasificación por segmento: XGBoost, LightGBM y Random Forest
 -   Balanceo de clases vía SMOTE — desbalance natural ~15:1 en conversiones Telco
 -   RFM adaptado a Telco: Recency=días desde última recarga, Frequency=recargas en 90 días, Monetary=GB×S/8
--   App Shiny interactiva con simulador de umbrales RFM desplegada en shinyapps.io
+-   App Shiny interactiva con simulador de umbrales RFM desplegada en shinyapps.io y Docker
 
 ### Resultados
 
@@ -59,7 +59,7 @@ Identificar qué clientes de la base móvil de Entel tienen mayor probabilidad d
 -   **Lift de 32.8x** en el decil de mayor probabilidad
 -   Contactar el 20% de mayor score captura el 57% de todos los adoptantes reales
 
-[Ver reporte completo](entel/index.html)
+[Ver reporte completo](entel/index.html) · [App interactiva](https://av3aks-c0gino-garibotto0s0.shinyapps.io/convergencia-entel/)
 
 ------------------------------------------------------------------------
 

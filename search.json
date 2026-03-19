@@ -79,9 +79,9 @@
   {
     "objectID": "cv.html",
     "href": "cv.html",
-    "title": "Curriculum Vitae",
+    "title": "Carlos Gino Garibotto Sandoval",
     "section": "",
-    "text": "Curriculum Vitae\nPuedes descargar mi CV en formato PDF aquí:\nDescargar CV (PDF)"
+    "text": "Lima, Perú  |  +51 985 344 917  | \n    cargingarsan@gmail.com  | \n    cargingarsan.github.io"
   },
   {
     "objectID": "proyectos.html",
@@ -130,13 +130,118 @@
     "href": "proyectos.html#segmentación-por-perfil-digital-del-consumidor-entel-empresas",
     "title": "Proyectos y Casos de Análisis",
     "section": "Segmentación por perfil digital del consumidor — Entel Empresas",
-    "text": "Segmentación por perfil digital del consumidor — Entel Empresas\nTipo: Segmentación no supervisada + modelos de propensión por segmento\nEnfoque: K-Means + LightGBM / XGBoost / Random Forest · base postpago Entel Empresas\n\nProblema\nIdentificar grupos de clientes de la base móvil postpago de Entel Empresas con perfiles de consumo digital diferenciados, y construir un modelo de propensión a la renovación de plan calibrado por segmento para focalizar campañas comerciales con máximo retorno.\n\n\nMetodología\n\nIntegración de 7 fuentes de datos (~500,000 líneas móviles)\nFeature engineering: tráfico por app, perfil digital, antigüedad, terminal, roaming y penalidades\nSegmentación K-Means con tidyclust (K=4 por criterio comercial)\nModelos de clasificación por segmento: XGBoost, LightGBM y Random Forest\nBalanceo de clases vía SMOTE — desbalance natural ~15:1 en conversiones Telco\nEvaluación por AUC-ROC, matriz de confusión e importancia de variables\n\n\n\nResultados\n\n4 segmentos con patrones de consumo digital diferenciados y accionables comercialmente\nModelos por segmento con AUC competitivo para producción en Telco Perú\nIdentificación de variables predictoras clave por segmento\nReporte reproducible en Quarto con visualizaciones estáticas\n\nVer reporte completo"
+    "text": "Segmentación por perfil digital del consumidor — Entel Empresas\nTipo: Segmentación no supervisada + modelos de propensión por segmento + RFM Telco\nEnfoque: K-Means · LightGBM / XGBoost / Random Forest · RFM adaptado a prepago peruano\n\nProblema\nIdentificar grupos de clientes de la base móvil postpago de Entel Empresas con perfiles de consumo digital diferenciados, construir un modelo de propensión a la renovación de plan calibrado por segmento, y desarrollar una segmentación RFM adaptada al mercado prepago peruano para focalizar campañas comerciales con máximo retorno.\n\n\nMetodología\n\nIntegración de 7 fuentes de datos (~500,000 líneas móviles)\nFeature engineering: tráfico por app, perfil digital, antigüedad, terminal, roaming y penalidades\nSegmentación K-Means con tidyclust (K=4 por criterio comercial)\nModelos de clasificación por segmento: XGBoost, LightGBM y Random Forest\nBalanceo de clases vía SMOTE — desbalance natural ~15:1 en conversiones Telco\nRFM adaptado a Telco: Recency=días desde última recarga, Frequency=recargas en 90 días, Monetary=GB×S/8\nApp Shiny interactiva con simulador de umbrales RFM desplegada en shinyapps.io y Docker\n\n\n\nResultados\n\n4 segmentos con patrones de consumo digital diferenciados y accionables comercialmente\n8 segmentos RFM con recomendaciones comerciales por canal\nModelos por segmento con AUC competitivo para producción en Telco Perú\nReporte reproducible en Quarto · App RFM interactiva en producción\n\nVer reporte completo · App RFM interactiva"
   },
   {
     "objectID": "proyectos.html#convergencia-digital-datathon-entel-2022",
     "href": "proyectos.html#convergencia-digital-datathon-entel-2022",
     "title": "Proyectos y Casos de Análisis",
     "section": "Convergencia Digital — Datathon Entel 2022",
-    "text": "Convergencia Digital — Datathon Entel 2022\nTipo: Modelo predictivo de clasificación binaria\nEnfoque: Machine learning aplicado a retención y conversión de clientes\n\nProblema\nIdentificar qué clientes de la base móvil de Entel tienen mayor probabilidad de adquirir un producto convergente en abril 2022, permitiendo focalizar campañas comerciales con el máximo retorno sobre inversión.\n\n\nMetodología\n\nIntegración de 8 fuentes de datos transaccionales (~224,000 clientes)\nFeature engineering: 27 variables de antigüedad, consumo, perfil digital y productos\nModelo LightGBM con corrección de desbalance de clases (scale_pos_weight ≈ 31.8x)\nOptimización de umbral por máximo F1-Score\nEvaluación por curva ROC, Lift por decil y métricas de clasificación\n\n\n\nResultados\n\nAUC: 0.81 en datos no vistos\nLift de 32.8x en el decil de mayor probabilidad\nContactar el 20% de mayor score captura el 57% de todos los adoptantes reales\n\nVer reporte completo"
+    "text": "Convergencia Digital — Datathon Entel 2022\nTipo: Modelo predictivo de clasificación binaria\nEnfoque: Machine learning aplicado a retención y conversión de clientes\n\nProblema\nIdentificar qué clientes de la base móvil de Entel tienen mayor probabilidad de adquirir un producto convergente en abril 2022, permitiendo focalizar campañas comerciales con el máximo retorno sobre inversión.\n\n\nMetodología\n\nIntegración de 8 fuentes de datos transaccionales (~224,000 clientes)\nFeature engineering: 27 variables de antigüedad, consumo, perfil digital y productos\nModelo LightGBM con corrección de desbalance de clases (scale_pos_weight ≈ 31.8x)\nOptimización de umbral por máximo F1-Score\nEvaluación por curva ROC, Lift por decil y métricas de clasificación\n\n\n\nResultados\n\nAUC: 0.81 en datos no vistos\nLift de 32.8x en el decil de mayor probabilidad\nContactar el 20% de mayor score captura el 57% de todos los adoptantes reales\n\nVer reporte completo · App interactiva"
+  },
+  {
+    "objectID": "cv.html#perfil-profesional",
+    "href": "cv.html#perfil-profesional",
+    "title": "Carlos Gino Garibotto Sandoval",
+    "section": "Perfil Profesional",
+    "text": "Perfil Profesional\nEconomista titulado (UNMSM) con más de 25 años de experiencia en análisis cuantitativo aplicado a decisiones de negocio. Especialista en segmentación de clientes, modelos predictivos de conversión y análisis RFM aplicados a bases de clientes de telecomunicaciones y retail. Experiencia en machine learning con R (tidymodels, LightGBM, XGBoost, K-Means), despliegue de aplicaciones de datos (Shiny, Docker, shinyapps.io) y reportería ejecutiva reproducible con Quarto. Fundador de G2S Analytics. Ganador del IBM Coding Day Hackathon (MIDIS, 2018)."
+  },
+  {
+    "objectID": "cv.html#competencias-técnicas",
+    "href": "cv.html#competencias-técnicas",
+    "title": "Carlos Gino Garibotto Sandoval",
+    "section": "Competencias Técnicas",
+    "text": "Competencias Técnicas\n\n\n\n\n\n\n\nAnálisis y Modelado\nHerramientas y Plataformas\n\n\n\n\nSegmentación de clientes (K-Means, RFM)\nR / RStudio / tidymodels / tidyclust\n\n\nModelos predictivos (LightGBM, XGBoost, RF)\nMachine learning aplicado a negocio\n\n\nAnálisis de churn y conversión\nFeature engineering y selección de variables\n\n\nSMOTE y clases desbalanceadas\nSHAP values e interpretabilidad\n\n\nShiny Apps y dashboards ejecutivos\nDocker · shinyapps.io · GitHub Pages\n\n\nQuarto: reportes reproducibles\nPower BI (certificación Microsoft)\n\n\nSQL y bases de datos relacionales\nModel Context Protocol (MCP) / Agentes IA\n\n\nAnálisis de series de tiempo\nEconometría aplicada y modelos explicativos"
+  },
+  {
+    "objectID": "cv.html#proyectos-de-data-analytics",
+    "href": "cv.html#proyectos-de-data-analytics",
+    "title": "Carlos Gino Garibotto Sandoval",
+    "section": "Proyectos de Data Analytics",
+    "text": "Proyectos de Data Analytics\n\nSegmentación por Perfil Digital — Entel Empresas 2025\nDatathon Entel 2022\n\nIntegración de 7 fuentes de datos (~500,000 líneas móviles) con 40+ variables de comportamiento digital\nSegmentación K-Means (K=4) por perfil de consumo de apps: streaming, social media, banca y mensajería\nModelos de propensión a la renovación por segmento: LightGBM, XGBoost y Random Forest con SMOTE\nRFM adaptado a prepago peruano: Recency (días desde recarga), Frequency (recargas/90 días), Monetary (GB×S/8)\nApp Shiny con simulador de umbrales RFM desplegada en shinyapps.io y Docker\n\nVer reporte · App RFM interactiva\n\n\n\nConvergencia Digital — Modelo de Propensión 2024\nDatathon Entel 2022\n\nModelo LightGBM para predecir adopción de producto convergente en base de ~224,000 clientes\nAUC: 0.81 | Lift de 32.8x en el decil de mayor score | F1-Score optimizado por umbral\nEl 20% de mayor score captura el 57% de todos los adoptantes reales\nApp Shiny interactiva para exploración de scores, umbrales y curva lift — desplegada en Docker\n\nVer reporte\n\n\n\nCOVID-19 Perú: Rezagos Temporales y Letalidad Regional 2024\nG2S Analytics\n\nModelos de regresión con variables rezagadas (lags 0–40 días) sobre datos MINSA para 25 departamentos\nIdentificación del rezago óptimo entre casos confirmados y fallecimientos\nReporte publicado en GitHub Pages con visualizaciones estáticas en ggplot2\n\nVer reporte\n\n\n\nG2S Territorial Insights — Indicadores Municipales Perú 2024–Presente\nG2S Analytics\n\nIntegración de fuentes oficiales (INEI, SIAF, SUSALUD, RENIEC) para los 1,874 distritos del Perú\nSistema de indicadores socioeconómicos estandarizados para diagnóstico y priorización territorial\n\nVer análisis"
+  },
+  {
+    "objectID": "cv.html#experiencia-profesional",
+    "href": "cv.html#experiencia-profesional",
+    "title": "Carlos Gino Garibotto Sandoval",
+    "section": "Experiencia Profesional",
+    "text": "Experiencia Profesional\n\nFundador y Analista Principal · G2S Analytics 2023 – Presente · Lima, Perú\n\nDesarrollo de modelos analíticos y sistemas de indicadores para organismos públicos y proyectos propios\nConstrucción de pipelines de datos reproducibles en R con publicación en GitHub Pages\nAplicación de machine learning a problemas de negocio y política pública\n\n\n\n\nAnalista de Estudios Económicos · Banco del Caribe Jun. 1998 – Abr. 1999 · Caracas, Venezuela\nDirección de Gestión y Planificación\n\nElaboración de estudios macroeconómicos e informes para la Dirección de Planificación Institucional\nAnálisis de indicadores financieros y económicos para soporte a la toma de decisiones directivas\n\n\n\n\nRedactor · Editora Perú S.A. May. 1994 – Set. 1995 · Lima, Perú\nEmpresa Peruana de Servicios Editoriales\n\nProducción editorial en empresa pública del sector comunicaciones del Estado peruano"
+  },
+  {
+    "objectID": "cv.html#formación-académica",
+    "href": "cv.html#formación-académica",
+    "title": "Carlos Gino Garibotto Sandoval",
+    "section": "Formación Académica",
+    "text": "Formación Académica\nTítulo Profesional: Economista · Especialidad: Gestión Empresarial 2023\nUniversidad Nacional Mayor de San Marcos (UNMSM) — Facultad de Economía · Lima, Perú"
+  },
+  {
+    "objectID": "cv.html#certificaciones-y-logros",
+    "href": "cv.html#certificaciones-y-logros",
+    "title": "Carlos Gino Garibotto Sandoval",
+    "section": "Certificaciones y Logros",
+    "text": "Certificaciones y Logros\n\n🏆 Ganador — IBM Coding Day Hackathon #SinAnemia · IBM Perú / MIDIS 2018\nDashboard in a Day — Power BI | SQL PASS Lima & Power BI User Group Lima 2017\nPowerBI Official Workshop — BIExpert / Microsoft 2017"
+  },
+  {
+    "objectID": "cv.html#idiomas",
+    "href": "cv.html#idiomas",
+    "title": "Carlos Gino Garibotto Sandoval",
+    "section": "Idiomas",
+    "text": "Idiomas\n\n\n\nIdioma\nNivel\n\n\n\n\nEspañol\nNativo\n\n\nInglés\nIntermedio — lectura técnica avanzada"
+  },
+  {
+    "objectID": "cv_en.html",
+    "href": "cv_en.html",
+    "title": "Carlos Gino Garibotto Sandoval",
+    "section": "",
+    "text": "Lima, Peru  |  +51 985 344 917  | \n    cargingarsan@gmail.com  | \n    cargingarsan.github.io"
+  },
+  {
+    "objectID": "cv_en.html#professional-profile",
+    "href": "cv_en.html#professional-profile",
+    "title": "Carlos Gino Garibotto Sandoval",
+    "section": "Professional Profile",
+    "text": "Professional Profile\nEconomist (UNMSM) with 25+ years of experience in quantitative analysis applied to business decisions. Specialist in customer segmentation, conversion propensity models, and RFM analytics for telecommunications and retail client bases. Hands-on experience with machine learning in R (tidymodels, LightGBM, XGBoost, K-Means), deployment of data applications (Shiny, Docker, shinyapps.io), and reproducible executive reporting with Quarto. Founder of G2S Analytics. Winner of IBM Coding Day Hackathon (MIDIS, 2018)."
+  },
+  {
+    "objectID": "cv_en.html#key-competencies",
+    "href": "cv_en.html#key-competencies",
+    "title": "Carlos Gino Garibotto Sandoval",
+    "section": "Key Competencies",
+    "text": "Key Competencies\n\n\n\n\n\n\n\nAnalytics & Modeling\nTools & Platforms\n\n\n\n\nCustomer segmentation (K-Means, RFM analytics)\nR / RStudio / tidymodels / tidyclust\n\n\nPredictive modeling (LightGBM, XGBoost, RF)\nMachine learning for business applications\n\n\nChurn analysis and conversion modeling\nFeature engineering and variable selection\n\n\nSMOTE and imbalanced class handling\nSHAP values and model interpretability\n\n\nShiny Apps and executive dashboards\nDocker · shinyapps.io · GitHub Pages\n\n\nQuarto: reproducible reports\nPower BI (Microsoft Certification)\n\n\nSQL and relational databases\nModel Context Protocol (MCP) / AI Agents\n\n\nTime series analysis\nApplied econometrics and explanatory models"
+  },
+  {
+    "objectID": "cv_en.html#data-analytics-projects",
+    "href": "cv_en.html#data-analytics-projects",
+    "title": "Carlos Gino Garibotto Sandoval",
+    "section": "Data Analytics Projects",
+    "text": "Data Analytics Projects\n\nDigital Profile Segmentation — Entel Empresas 2025\nDatathon Entel 2022\n\nIntegrated 7 data sources (~500,000 mobile lines) with 40+ engineered features\nK-Means segmentation (K=4) by app consumption profile: streaming, social media, banking and messaging\nConversion propensity models per segment: LightGBM, XGBoost and Random Forest with SMOTE\nRFM model adapted to Peruvian prepaid market: Recency, Frequency, Monetary (GB×S/8)\nShiny app with RFM threshold simulator deployed on shinyapps.io and Docker\n\nView report · Interactive RFM App\n\n\n\nDigital Convergence — Propensity Model 2024\nDatathon Entel 2022\n\nLightGBM model to predict convergent product adoption in a base of ~224,000 customers\nAUC: 0.81 | Lift of 32.8x in the highest-score decile | F1-Score optimized by threshold\nTop 20% by score captures 57% of all real converters\nInteractive Shiny app for score exploration and lift curve — deployed on Docker\n\nView report\n\n\n\nCOVID-19 Peru: Temporal Lags and Regional Mortality 2024\nG2S Analytics\n\nRegression models with lagged variables (lags 0–40 days) on MINSA data across 25 departments\nIdentified optimal lag between confirmed cases and fatalities\nPublished on GitHub Pages with static visualizations in ggplot2\n\nView report\n\n\n\nG2S Territorial Insights — Municipal Indicators Peru 2024–Present\nG2S Analytics\n\nIntegrated official sources (INEI, SIAF, SUSALUD, RENIEC) for 1,874 Peruvian districts\nStandardized socioeconomic indicator system for territorial diagnosis and investment prioritization\n\nView analysis"
+  },
+  {
+    "objectID": "cv_en.html#professional-experience",
+    "href": "cv_en.html#professional-experience",
+    "title": "Carlos Gino Garibotto Sandoval",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nFounder & Lead Analyst · G2S Analytics 2023 – Present · Lima, Peru\n\nDeveloped analytical models and indicator systems for public organizations and proprietary research\nBuilt reproducible data pipelines in R published via GitHub Pages\nApplied machine learning to business and public policy problems\n\n\n\n\nEconomic Research Analyst · Banco del Caribe Jun. 1998 – Apr. 1999 · Caracas, Venezuela\nPlanning & Management Division\n\nProduced macroeconomic studies and reports for the Institutional Planning Division\nAnalyzed financial and economic indicators to support executive decision-making\n\n\n\n\nEditor · Editora Perú S.A. May. 1994 – Sep. 1995 · Lima, Peru\nEmpresa Peruana de Servicios Editoriales\n\nEditorial production at a public company in the state communications sector"
+  },
+  {
+    "objectID": "cv_en.html#education",
+    "href": "cv_en.html#education",
+    "title": "Carlos Gino Garibotto Sandoval",
+    "section": "Education",
+    "text": "Education\nBachelor’s Degree in Economics · Specialization: Business Management 2023\nUniversidad Nacional Mayor de San Marcos (UNMSM) — School of Economics · Lima, Peru"
+  },
+  {
+    "objectID": "cv_en.html#certifications-awards",
+    "href": "cv_en.html#certifications-awards",
+    "title": "Carlos Gino Garibotto Sandoval",
+    "section": "Certifications & Awards",
+    "text": "Certifications & Awards\n\n🏆 Winner — IBM Coding Day Hackathon #SinAnemia · IBM Peru / MIDIS 2018\nDashboard in a Day — Power BI | SQL PASS Lima & Power BI User Group Lima 2017\nPowerBI Official Workshop — BIExpert / Microsoft 2017"
+  },
+  {
+    "objectID": "cv_en.html#languages",
+    "href": "cv_en.html#languages",
+    "title": "Carlos Gino Garibotto Sandoval",
+    "section": "Languages",
+    "text": "Languages\n\n\n\nLanguage\nLevel\n\n\n\n\nSpanish\nNative\n\n\nEnglish\nIntermediate — advanced technical reading"
   }
 ]

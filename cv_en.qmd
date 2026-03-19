@@ -1,0 +1,142 @@
+---
+title: "Carlos Gino Garibotto Sandoval"
+subtitle: "Quantitative Economist  |  Data Analytics  |  Retail & Telecommunications"
+format:
+  html:
+    theme: flatly
+    toc: false
+    page-layout: article
+---
+
+```{=html}
+<div style="text-align:center; margin-bottom: 1rem;">
+  <span style="color:#595959; font-size:0.95rem;">
+    Lima, Peru &nbsp;|&nbsp; +51 985 344 917 &nbsp;|&nbsp;
+    <a href="mailto:cargingarsan@gmail.com">cargingarsan@gmail.com</a> &nbsp;|&nbsp;
+    <a href="https://cargingarsan.github.io">cargingarsan.github.io</a>
+  </span>
+</div>
+<div style="text-align:center; margin-bottom: 2rem;">
+  <a href="CV_Garibotto_EN_ATS.pdf" class="btn btn-primary btn-sm">
+    ⬇ Download CV (PDF)
+  </a>
+</div>
+```
+
+---
+
+## Professional Profile
+
+Economist (UNMSM) with 25+ years of experience in quantitative analysis applied to business decisions. Specialist in customer segmentation, conversion propensity models, and RFM analytics for telecommunications and retail client bases. Hands-on experience with machine learning in R (tidymodels, LightGBM, XGBoost, K-Means), deployment of data applications (Shiny, Docker, shinyapps.io), and reproducible executive reporting with Quarto. Founder of G2S Analytics. Winner of IBM Coding Day Hackathon (MIDIS, 2018).
+
+---
+
+## Key Competencies
+
+| Analytics & Modeling | Tools & Platforms |
+|---|---|
+| Customer segmentation (K-Means, RFM analytics) | R / RStudio / tidymodels / tidyclust |
+| Predictive modeling (LightGBM, XGBoost, RF) | Machine learning for business applications |
+| Churn analysis and conversion modeling | Feature engineering and variable selection |
+| SMOTE and imbalanced class handling | SHAP values and model interpretability |
+| Shiny Apps and executive dashboards | Docker · shinyapps.io · GitHub Pages |
+| Quarto: reproducible reports | Power BI (Microsoft Certification) |
+| SQL and relational databases | Model Context Protocol (MCP) / AI Agents |
+| Time series analysis | Applied econometrics and explanatory models |
+
+---
+
+## Data Analytics Projects
+
+### Digital Profile Segmentation — Entel Empresas `2025`
+*Datathon Entel 2022*
+
+- Integrated 7 data sources (~500,000 mobile lines) with 40+ engineered features
+- K-Means segmentation (K=4) by app consumption profile: streaming, social media, banking and messaging
+- Conversion propensity models per segment: LightGBM, XGBoost and Random Forest with SMOTE
+- RFM model adapted to Peruvian prepaid market: Recency, Frequency, Monetary (GB×S/8)
+- Shiny app with RFM threshold simulator deployed on shinyapps.io and Docker
+
+[View report](segmentacion-telco/index.html) · [Interactive RFM App](https://av3aks-c0gino-garibotto0s0.shinyapps.io/rfm-telco-entel/)
+
+---
+
+### Digital Convergence — Propensity Model `2024`
+*Datathon Entel 2022*
+
+- LightGBM model to predict convergent product adoption in a base of ~224,000 customers
+- **AUC: 0.81** | **Lift of 32.8x** in the highest-score decile | F1-Score optimized by threshold
+- Top 20% by score captures 57% of all real converters
+- Interactive Shiny app for score exploration and lift curve — deployed on Docker
+
+[View report](entel/index.html)
+
+---
+
+### COVID-19 Peru: Temporal Lags and Regional Mortality `2024`
+*G2S Analytics*
+
+- Regression models with lagged variables (lags 0–40 days) on MINSA data across 25 departments
+- Identified optimal lag between confirmed cases and fatalities
+- Published on GitHub Pages with static visualizations in ggplot2
+
+[View report](casos_vs_fallecidos_actualizado_3.html)
+
+---
+
+### G2S Territorial Insights — Municipal Indicators Peru `2024–Present`
+*G2S Analytics*
+
+- Integrated official sources (INEI, SIAF, SUSALUD, RENIEC) for 1,874 Peruvian districts
+- Standardized socioeconomic indicator system for territorial diagnosis and investment prioritization
+
+[View analysis](territorial_insights.html)
+
+---
+
+## Professional Experience
+
+### Founder & Lead Analyst · G2S Analytics `2023 – Present · Lima, Peru`
+
+- Developed analytical models and indicator systems for public organizations and proprietary research
+- Built reproducible data pipelines in R published via GitHub Pages
+- Applied machine learning to business and public policy problems
+
+---
+
+### Economic Research Analyst · Banco del Caribe `Jun. 1998 – Apr. 1999 · Caracas, Venezuela`
+*Planning & Management Division*
+
+- Produced macroeconomic studies and reports for the Institutional Planning Division
+- Analyzed financial and economic indicators to support executive decision-making
+
+---
+
+### Editor · Editora Perú S.A. `May. 1994 – Sep. 1995 · Lima, Peru`
+*Empresa Peruana de Servicios Editoriales*
+
+- Editorial production at a public company in the state communications sector
+
+---
+
+## Education
+
+**Bachelor's Degree in Economics** · Specialization: Business Management `2023`\
+Universidad Nacional Mayor de San Marcos (UNMSM) — School of Economics · Lima, Peru
+
+---
+
+## Certifications & Awards
+
+- 🏆 **Winner** — IBM Coding Day Hackathon #SinAnemia · IBM Peru / MIDIS `2018`
+- Dashboard in a Day — Power BI | SQL PASS Lima & Power BI User Group Lima `2017`
+- PowerBI Official Workshop — BIExpert / Microsoft `2017`
+
+---
+
+## Languages
+
+| Language | Level |
+|---|---|
+| Spanish | Native |
+| English | Intermediate — advanced technical reading |
