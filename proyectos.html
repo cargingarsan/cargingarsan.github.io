@@ -151,11 +151,11 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 <section id="segmentación-por-perfil-digital-del-consumidor-entel-empresas" class="level2">
 <h2 class="anchored" data-anchor-id="segmentación-por-perfil-digital-del-consumidor-entel-empresas">Segmentación por perfil digital del consumidor — Entel Empresas</h2>
-<p><strong>Tipo:</strong> Segmentación no supervisada + modelos de propensión por segmento<br>
-<strong>Enfoque:</strong> K-Means + LightGBM / XGBoost / Random Forest · base postpago Entel Empresas</p>
+<p><strong>Tipo:</strong> Segmentación no supervisada + modelos de propensión por segmento + RFM Telco<br>
+<strong>Enfoque:</strong> K-Means · LightGBM / XGBoost / Random Forest · RFM adaptado a prepago peruano</p>
 <section id="problema" class="level3">
 <h3 class="anchored" data-anchor-id="problema">Problema</h3>
-<p>Identificar grupos de clientes de la base móvil postpago de Entel Empresas con perfiles de consumo digital diferenciados, y construir un modelo de propensión a la renovación de plan calibrado por segmento para focalizar campañas comerciales con máximo retorno.</p>
+<p>Identificar grupos de clientes de la base móvil postpago de Entel Empresas con perfiles de consumo digital diferenciados, construir un modelo de propensión a la renovación de plan calibrado por segmento, y desarrollar una segmentación RFM adaptada al mercado prepago peruano para focalizar campañas comerciales con máximo retorno.</p>
 </section>
 <section id="metodología" class="level3">
 <h3 class="anchored" data-anchor-id="metodología">Metodología</h3>
@@ -165,18 +165,19 @@ ul.task-list li input[type="checkbox"] {
 <li>Segmentación K-Means con tidyclust (K=4 por criterio comercial)</li>
 <li>Modelos de clasificación por segmento: XGBoost, LightGBM y Random Forest</li>
 <li>Balanceo de clases vía SMOTE — desbalance natural ~15:1 en conversiones Telco</li>
-<li>Evaluación por AUC-ROC, matriz de confusión e importancia de variables</li>
+<li>RFM adaptado a Telco: Recency=días desde última recarga, Frequency=recargas en 90 días, Monetary=GB×S/8</li>
+<li>App Shiny interactiva con simulador de umbrales RFM desplegada en Docker</li>
 </ul>
 </section>
 <section id="resultados" class="level3">
 <h3 class="anchored" data-anchor-id="resultados">Resultados</h3>
 <ul>
 <li>4 segmentos con patrones de consumo digital diferenciados y accionables comercialmente</li>
+<li>8 segmentos RFM con recomendaciones comerciales por canal</li>
 <li>Modelos por segmento con AUC competitivo para producción en Telco Perú</li>
-<li>Identificación de variables predictoras clave por segmento</li>
-<li>Reporte reproducible en Quarto con visualizaciones estáticas</li>
+<li>Reporte reproducible en Quarto · App RFM interactiva en Docker</li>
 </ul>
-<p><a href="segmentacion-telco/index.html">Ver reporte completo</a></p>
+<p><a href="segmentacion-telco/index.html">Ver reporte completo</a> · <a href="http://localhost:3839">App RFM interactiva</a></p>
 <hr>
 </section>
 </section>
