@@ -1,11 +1,142 @@
 ---
-title: ""
-format: html
-editor: visual
+title: "Carlos Gino Garibotto Sandoval"
+subtitle: "Economista Cuantitativo  |  Data Analytics  |  Retail & Telecomunicaciones"
+format:
+  html:
+    theme: flatly
+    toc: false
+    page-layout: article
 ---
 
-# Curriculum Vitae
+```{=html}
+<div style="text-align:center; margin-bottom: 1rem;">
+  <span style="color:#595959; font-size:0.95rem;">
+    Lima, Perú &nbsp;|&nbsp; +51 985 344 917 &nbsp;|&nbsp;
+    <a href="mailto:cargingarsan@gmail.com">cargingarsan@gmail.com</a> &nbsp;|&nbsp;
+    <a href="https://cargingarsan.github.io">cargingarsan.github.io</a>
+  </span>
+</div>
+<div style="text-align:center; margin-bottom: 2rem;">
+  <a href="CV_Garibotto_ATS.pdf" class="btn btn-primary btn-sm">
+    ⬇ Descargar CV (PDF)
+  </a>
+</div>
+```
 
-Puedes descargar mi CV en formato PDF aquí:
+---
 
-[Descargar CV (PDF)](CV_Garibotto_ATS.pdf)
+## Perfil Profesional
+
+Economista titulado (UNMSM) con más de 25 años de experiencia en análisis cuantitativo aplicado a decisiones de negocio. Especialista en segmentación de clientes, modelos predictivos de conversión y análisis RFM aplicados a bases de clientes de telecomunicaciones y retail. Experiencia en machine learning con R (tidymodels, LightGBM, XGBoost, K-Means), despliegue de aplicaciones de datos (Shiny, Docker, shinyapps.io) y reportería ejecutiva reproducible con Quarto. Fundador de G2S Analytics. Ganador del IBM Coding Day Hackathon (MIDIS, 2018).
+
+---
+
+## Competencias Técnicas
+
+| Análisis y Modelado | Herramientas y Plataformas |
+|---|---|
+| Segmentación de clientes (K-Means, RFM) | R / RStudio / tidymodels / tidyclust |
+| Modelos predictivos (LightGBM, XGBoost, RF) | Machine learning aplicado a negocio |
+| Análisis de churn y conversión | Feature engineering y selección de variables |
+| SMOTE y clases desbalanceadas | SHAP values e interpretabilidad |
+| Shiny Apps y dashboards ejecutivos | Docker · shinyapps.io · GitHub Pages |
+| Quarto: reportes reproducibles | Power BI (certificación Microsoft) |
+| SQL y bases de datos relacionales | Model Context Protocol (MCP) / Agentes IA |
+| Análisis de series de tiempo | Econometría aplicada y modelos explicativos |
+
+---
+
+## Proyectos de Data Analytics
+
+### Segmentación por Perfil Digital — Entel Empresas `2025`
+*Datathon Entel 2022*
+
+- Integración de 7 fuentes de datos (~500,000 líneas móviles) con 40+ variables de comportamiento digital
+- Segmentación K-Means (K=4) por perfil de consumo de apps: streaming, social media, banca y mensajería
+- Modelos de propensión a la renovación por segmento: LightGBM, XGBoost y Random Forest con SMOTE
+- RFM adaptado a prepago peruano: Recency (días desde recarga), Frequency (recargas/90 días), Monetary (GB×S/8)
+- App Shiny con simulador de umbrales RFM desplegada en shinyapps.io y Docker
+
+[Ver reporte](segmentacion-telco/index.html) · [App RFM interactiva](https://av3aks-c0gino-garibotto0s0.shinyapps.io/rfm-telco-entel/)
+
+---
+
+### Convergencia Digital — Modelo de Propensión `2024`
+*Datathon Entel 2022*
+
+- Modelo LightGBM para predecir adopción de producto convergente en base de ~224,000 clientes
+- **AUC: 0.81** | **Lift de 32.8x** en el decil de mayor score | F1-Score optimizado por umbral
+- El 20% de mayor score captura el 57% de todos los adoptantes reales
+- App Shiny interactiva para exploración de scores, umbrales y curva lift — desplegada en Docker
+
+[Ver reporte](entel/index.html)
+
+---
+
+### COVID-19 Perú: Rezagos Temporales y Letalidad Regional `2024`
+*G2S Analytics*
+
+- Modelos de regresión con variables rezagadas (lags 0–40 días) sobre datos MINSA para 25 departamentos
+- Identificación del rezago óptimo entre casos confirmados y fallecimientos
+- Reporte publicado en GitHub Pages con visualizaciones estáticas en ggplot2
+
+[Ver reporte](casos_vs_fallecidos_actualizado_3.html)
+
+---
+
+### G2S Territorial Insights — Indicadores Municipales Perú `2024–Presente`
+*G2S Analytics*
+
+- Integración de fuentes oficiales (INEI, SIAF, SUSALUD, RENIEC) para los 1,874 distritos del Perú
+- Sistema de indicadores socioeconómicos estandarizados para diagnóstico y priorización territorial
+
+[Ver análisis](territorial_insights.html)
+
+---
+
+## Experiencia Profesional
+
+### Fundador y Analista Principal · G2S Analytics `2023 – Presente · Lima, Perú`
+
+- Desarrollo de modelos analíticos y sistemas de indicadores para organismos públicos y proyectos propios
+- Construcción de pipelines de datos reproducibles en R con publicación en GitHub Pages
+- Aplicación de machine learning a problemas de negocio y política pública
+
+---
+
+### Analista de Estudios Económicos · Banco del Caribe `Jun. 1998 – Abr. 1999 · Caracas, Venezuela`
+*Dirección de Gestión y Planificación*
+
+- Elaboración de estudios macroeconómicos e informes para la Dirección de Planificación Institucional
+- Análisis de indicadores financieros y económicos para soporte a la toma de decisiones directivas
+
+---
+
+### Redactor · Editora Perú S.A. `May. 1994 – Set. 1995 · Lima, Perú`
+*Empresa Peruana de Servicios Editoriales*
+
+- Producción editorial en empresa pública del sector comunicaciones del Estado peruano
+
+---
+
+## Formación Académica
+
+**Título Profesional: Economista** · Especialidad: Gestión Empresarial `2023`\
+Universidad Nacional Mayor de San Marcos (UNMSM) — Facultad de Economía · Lima, Perú
+
+---
+
+## Certificaciones y Logros
+
+- 🏆 **Ganador** — IBM Coding Day Hackathon #SinAnemia · IBM Perú / MIDIS `2018`
+- Dashboard in a Day — Power BI | SQL PASS Lima & Power BI User Group Lima `2017`
+- PowerBI Official Workshop — BIExpert / Microsoft `2017`
+
+---
+
+## Idiomas
+
+| Idioma | Nivel |
+|---|---|
+| Español | Nativo |
+| Inglés | Intermedio — lectura técnica avanzada |
